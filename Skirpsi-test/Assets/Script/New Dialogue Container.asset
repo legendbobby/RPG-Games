@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edebd0741ed86754cb48148dfc44c60a, type: 3}
+  m_Name: New Dialogue Container
+  m_EditorClassIdentifier: 
+  line:
+  - asddasdsadsada  dasas asd
+  - ' dasdasd ad asd as'
+  - asdas asd as das das dasas sad as asd as das das
+  actor: {fileID: 11400000, guid: b24ffa2fc3c5189489bb826ed716fbb0, type: 2}

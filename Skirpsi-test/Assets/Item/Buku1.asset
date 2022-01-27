@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4894f892e8adcab45a35cb653a6e644b, type: 3}
+  m_Name: Buku1
+  m_EditorClassIdentifier: 
+  name: Buku
+  id: 0
+  img:
+  - {fileID: 21300000, guid: 1e0a99df01182524992e0236bb8ffb69, type: 3}
+  - {fileID: 8220004207842343721, guid: 498d6c33c89360e43b56b0934609c613, type: 3}
+  - {fileID: -8917494276948081965, guid: 498d6c33c89360e43b56b0934609c613, type: 3}
+  icon: {fileID: 0}

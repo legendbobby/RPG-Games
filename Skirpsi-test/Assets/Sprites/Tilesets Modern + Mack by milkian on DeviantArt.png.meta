@@ -1,0 +1,2590 @@
+fileFormatVersion: 2
+guid: 1e3309d0e4134f54880b81512e0937e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6381667718718713979
+    second: Tilesets Modern + Mack by milkian on DeviantArt_0
+  - first:
+      213: 101749539063894687
+    second: Tilesets Modern + Mack by milkian on DeviantArt_1
+  - first:
+      213: -4298105880131530762
+    second: Tilesets Modern + Mack by milkian on DeviantArt_2
+  - first:
+      213: 1616075050143024158
+    second: Tilesets Modern + Mack by milkian on DeviantArt_3
+  - first:
+      213: -9083772552398685812
+    second: Tilesets Modern + Mack by milkian on DeviantArt_4
+  - first:
+      213: -2020675873163223571
+    second: Tilesets Modern + Mack by milkian on DeviantArt_5
+  - first:
+      213: -5892561810456146611
+    second: Tilesets Modern + Mack by milkian on DeviantArt_6
+  - first:
+      213: -6132039855376404344
+    second: Tilesets Modern + Mack by milkian on DeviantArt_7
+  - first:
+      213: -7102018151295763198
+    second: Tilesets Modern + Mack by milkian on DeviantArt_8
+  - first:
+      213: -3598839742672369602
+    second: Tilesets Modern + Mack by milkian on DeviantArt_9
+  - first:
+      213: -8385193637484678325
+    second: Tilesets Modern + Mack by milkian on DeviantArt_10
+  - first:
+      213: 1384857454071214023
+    second: Tilesets Modern + Mack by milkian on DeviantArt_11
+  - first:
+      213: 534905715423708607
+    second: Tilesets Modern + Mack by milkian on DeviantArt_12
+  - first:
+      213: 5424219293590925654
+    second: Tilesets Modern + Mack by milkian on DeviantArt_13
+  - first:
+      213: 7483803552343700679
+    second: Tilesets Modern + Mack by milkian on DeviantArt_14
+  - first:
+      213: 5408231440959904337
+    second: Tilesets Modern + Mack by milkian on DeviantArt_15
+  - first:
+      213: -1426127266994662352
+    second: Tilesets Modern + Mack by milkian on DeviantArt_16
+  - first:
+      213: 7359777256134642564
+    second: Tilesets Modern + Mack by milkian on DeviantArt_17
+  - first:
+      213: 8019193174567152488
+    second: Tilesets Modern + Mack by milkian on DeviantArt_18
+  - first:
+      213: -7765270255675260836
+    second: Tilesets Modern + Mack by milkian on DeviantArt_19
+  - first:
+      213: 4840370856170283531
+    second: Tilesets Modern + Mack by milkian on DeviantArt_20
+  - first:
+      213: -4011599036954424787
+    second: Tilesets Modern + Mack by milkian on DeviantArt_21
+  - first:
+      213: -140641011237990984
+    second: Tilesets Modern + Mack by milkian on DeviantArt_22
+  - first:
+      213: -1392731250311636608
+    second: Tilesets Modern + Mack by milkian on DeviantArt_23
+  - first:
+      213: -6493105383226267830
+    second: Tilesets Modern + Mack by milkian on DeviantArt_24
+  - first:
+      213: -6056523655880877072
+    second: Tilesets Modern + Mack by milkian on DeviantArt_25
+  - first:
+      213: 3906290256179982880
+    second: Tilesets Modern + Mack by milkian on DeviantArt_26
+  - first:
+      213: 8408299305801640587
+    second: Tilesets Modern + Mack by milkian on DeviantArt_27
+  - first:
+      213: 1948444482249469375
+    second: Tilesets Modern + Mack by milkian on DeviantArt_28
+  - first:
+      213: 9131874359009432444
+    second: Tilesets Modern + Mack by milkian on DeviantArt_29
+  - first:
+      213: -5229673625299685004
+    second: Tilesets Modern + Mack by milkian on DeviantArt_30
+  - first:
+      213: 8601424114205108106
+    second: Tilesets Modern + Mack by milkian on DeviantArt_31
+  - first:
+      213: 531579789316714072
+    second: Tilesets Modern + Mack by milkian on DeviantArt_32
+  - first:
+      213: -945492187222442247
+    second: Tilesets Modern + Mack by milkian on DeviantArt_33
+  - first:
+      213: -1830879489711336716
+    second: Tilesets Modern + Mack by milkian on DeviantArt_34
+  - first:
+      213: -8384624393394340582
+    second: Tilesets Modern + Mack by milkian on DeviantArt_35
+  - first:
+      213: 5986094432987207267
+    second: Tilesets Modern + Mack by milkian on DeviantArt_36
+  - first:
+      213: 6919924213335757302
+    second: Tilesets Modern + Mack by milkian on DeviantArt_37
+  - first:
+      213: -6106556063028598266
+    second: Tilesets Modern + Mack by milkian on DeviantArt_38
+  - first:
+      213: -1500419977363891790
+    second: Tilesets Modern + Mack by milkian on DeviantArt_39
+  - first:
+      213: -2939156745351334125
+    second: Tilesets Modern + Mack by milkian on DeviantArt_40
+  - first:
+      213: 6313293827640297168
+    second: Tilesets Modern + Mack by milkian on DeviantArt_41
+  - first:
+      213: -5564334648501638820
+    second: Tilesets Modern + Mack by milkian on DeviantArt_42
+  - first:
+      213: -8126222945281749343
+    second: Tilesets Modern + Mack by milkian on DeviantArt_43
+  - first:
+      213: -650927594823273875
+    second: Tilesets Modern + Mack by milkian on DeviantArt_44
+  - first:
+      213: 731343523536750400
+    second: Tilesets Modern + Mack by milkian on DeviantArt_45
+  - first:
+      213: 562502816387400478
+    second: Tilesets Modern + Mack by milkian on DeviantArt_46
+  - first:
+      213: -8943045688968279515
+    second: Tilesets Modern + Mack by milkian on DeviantArt_47
+  - first:
+      213: 5156414239504320358
+    second: Tilesets Modern + Mack by milkian on DeviantArt_48
+  - first:
+      213: -7228957475580596359
+    second: Tilesets Modern + Mack by milkian on DeviantArt_49
+  - first:
+      213: 2986548000927929108
+    second: Tilesets Modern + Mack by milkian on DeviantArt_50
+  - first:
+      213: 8516097555177058943
+    second: Tilesets Modern + Mack by milkian on DeviantArt_51
+  - first:
+      213: 4764832725127002402
+    second: Tilesets Modern + Mack by milkian on DeviantArt_52
+  - first:
+      213: 5391032142014344895
+    second: Tilesets Modern + Mack by milkian on DeviantArt_53
+  - first:
+      213: 7923480598271712745
+    second: Tilesets Modern + Mack by milkian on DeviantArt_54
+  - first:
+      213: -5293263398411032307
+    second: Tilesets Modern + Mack by milkian on DeviantArt_55
+  - first:
+      213: 910300829157399877
+    second: Tilesets Modern + Mack by milkian on DeviantArt_56
+  - first:
+      213: -6315508087295138241
+    second: Tilesets Modern + Mack by milkian on DeviantArt_57
+  - first:
+      213: -4027434889375646094
+    second: Tilesets Modern + Mack by milkian on DeviantArt_58
+  - first:
+      213: -4871866528337820690
+    second: Tilesets Modern + Mack by milkian on DeviantArt_59
+  - first:
+      213: -4239330539707652648
+    second: Tilesets Modern + Mack by milkian on DeviantArt_60
+  - first:
+      213: 651718723337538043
+    second: Tilesets Modern + Mack by milkian on DeviantArt_61
+  - first:
+      213: -9056797570224789483
+    second: Tilesets Modern + Mack by milkian on DeviantArt_62
+  - first:
+      213: -455135844239279160
+    second: Tilesets Modern + Mack by milkian on DeviantArt_63
+  - first:
+      213: 2664956741035678610
+    second: Tilesets Modern + Mack by milkian on DeviantArt_64
+  - first:
+      213: -7058052004505410841
+    second: Tilesets Modern + Mack by milkian on DeviantArt_65
+  - first:
+      213: -5105252558704061896
+    second: Tilesets Modern + Mack by milkian on DeviantArt_66
+  - first:
+      213: -1200950810964955036
+    second: Tilesets Modern + Mack by milkian on DeviantArt_67
+  - first:
+      213: 9154290682245012919
+    second: Tilesets Modern + Mack by milkian on DeviantArt_68
+  - first:
+      213: -3158210820354299889
+    second: Tilesets Modern + Mack by milkian on DeviantArt_69
+  - first:
+      213: 2503219709349765133
+    second: Tilesets Modern + Mack by milkian on DeviantArt_70
+  - first:
+      213: 4376695376202339735
+    second: Tilesets Modern + Mack by milkian on DeviantArt_71
+  - first:
+      213: 5826483962941378170
+    second: Tilesets Modern + Mack by milkian on DeviantArt_72
+  - first:
+      213: 7039826862428231970
+    second: Tilesets Modern + Mack by milkian on DeviantArt_73
+  - first:
+      213: 2834661981918762608
+    second: Tilesets Modern + Mack by milkian on DeviantArt_74
+  - first:
+      213: -8978531236429339805
+    second: Tilesets Modern + Mack by milkian on DeviantArt_75
+  - first:
+      213: 1701122483359482277
+    second: Tilesets Modern + Mack by milkian on DeviantArt_76
+  - first:
+      213: -6278625402314189590
+    second: Tilesets Modern + Mack by milkian on DeviantArt_77
+  - first:
+      213: 3140608532959833213
+    second: Tilesets Modern + Mack by milkian on DeviantArt_78
+  - first:
+      213: -1399364774912295826
+    second: Tilesets Modern + Mack by milkian on DeviantArt_79
+  - first:
+      213: -1831605689940957366
+    second: Tilesets Modern + Mack by milkian on DeviantArt_80
+  - first:
+      213: 4996632392232389138
+    second: Tilesets Modern + Mack by milkian on DeviantArt_81
+  - first:
+      213: -5887041042675433789
+    second: Tilesets Modern + Mack by milkian on DeviantArt_82
+  - first:
+      213: 4765134671026906124
+    second: Tilesets Modern + Mack by milkian on DeviantArt_83
+  - first:
+      213: -6670942111782706396
+    second: Tilesets Modern + Mack by milkian on DeviantArt_84
+  - first:
+      213: 8289135682183092521
+    second: Tilesets Modern + Mack by milkian on DeviantArt_85
+  - first:
+      213: 108385496535761575
+    second: Tilesets Modern + Mack by milkian on DeviantArt_86
+  - first:
+      213: -6879610844822547241
+    second: Tilesets Modern + Mack by milkian on DeviantArt_87
+  - first:
+      213: -2714440248932953296
+    second: Tilesets Modern + Mack by milkian on DeviantArt_88
+  - first:
+      213: 8057502722982816792
+    second: Tilesets Modern + Mack by milkian on DeviantArt_89
+  - first:
+      213: -8299380726847415998
+    second: Tilesets Modern + Mack by milkian on DeviantArt_90
+  - first:
+      213: 1960735898321532631
+    second: Tilesets Modern + Mack by milkian on DeviantArt_91
+  - first:
+      213: 7751345017613524160
+    second: Tilesets Modern + Mack by milkian on DeviantArt_92
+  - first:
+      213: 3744334900050342736
+    second: Tilesets Modern + Mack by milkian on DeviantArt_93
+  - first:
+      213: -6253025928275216517
+    second: Tilesets Modern + Mack by milkian on DeviantArt_94
+  - first:
+      213: -4852185016361595058
+    second: Tilesets Modern + Mack by milkian on DeviantArt_95
+  - first:
+      213: -7580417633048768693
+    second: Tilesets Modern + Mack by milkian on DeviantArt_96
+  - first:
+      213: -7619092003209774579
+    second: Tilesets Modern + Mack by milkian on DeviantArt_97
+  - first:
+      213: 4966558473417027193
+    second: Tilesets Modern + Mack by milkian on DeviantArt_98
+  - first:
+      213: -7569023863289104720
+    second: Tilesets Modern + Mack by milkian on DeviantArt_99
+  - first:
+      213: 8717633598815121811
+    second: Tilesets Modern + Mack by milkian on DeviantArt_100
+  - first:
+      213: 3472370183183106433
+    second: Tilesets Modern + Mack by milkian on DeviantArt_101
+  - first:
+      213: 9204260560982110758
+    second: Tilesets Modern + Mack by milkian on DeviantArt_102
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 458
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f81377503cf67a0800000000000000
+      internalID: -6381667718718713979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9296fbaaac796100800000000000000
+      internalID: 101749539063894687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 480
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff0ebf697f0a54c0800000000000000
+      internalID: -4298105880131530762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 482
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14852e12b37d6610800000000000000
+      internalID: 1616075050143024158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 460
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8935d1ddf4ffe180800000000000000
+      internalID: -9083772552398685812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 418
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded57e5dffd15f3e0800000000000000
+      internalID: -2020675873163223571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 416
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d8ab6e04a693ea0800000000000000
+      internalID: -5892561810456146611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 384
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88070cf8d3e96eaa0800000000000000
+      internalID: -6132039855376404344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 386
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db3a79e10907d90800000000000000
+      internalID: -7102018151295763198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_9
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 386
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38847e425a5e0ec0800000000000000
+      internalID: -3598839742672369602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 387
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b433cd830dec1ab80800000000000000
+      internalID: -8385193637484678325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 384
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf67766480083310800000000000000
+      internalID: 1384857454071214023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 389
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb508240aed5c6700800000000000000
+      internalID: 534905715423708607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 388
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651be4275b2b64b40800000000000000
+      internalID: 5424219293590925654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 389
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b0421eafcbd760800000000000000
+      internalID: 7483803552343700679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 384
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a938d67d5ed0b40800000000000000
+      internalID: 5408231440959904337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 361
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d84e7ec0653ce0800000000000000
+      internalID: -1426127266994662352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 339
+        width: 96
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b87e1bb6e232660800000000000000
+      internalID: 7359777256134642564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 306
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bef4b64b5e94f60800000000000000
+      internalID: 8019193174567152488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 306
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50c19938d73c3490800000000000000
+      internalID: -7765270255675260836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 129
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02ee27f5a37c2340800000000000000
+      internalID: 4840370856170283531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_21
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 353
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a48052eefe358c0800000000000000
+      internalID: -4011599036954424787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 320
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdce44deb75c0ef0800000000000000
+      internalID: -140641011237990984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 321
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089d69d8e460cace0800000000000000
+      internalID: -1392731250311636608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_24
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 323
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a472f9f4e0bd3e5a0800000000000000
+      internalID: -6493105383226267830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 321
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb5875e2d7e2fba0800000000000000
+      internalID: -6056523655880877072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 288
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0227d25aa4ee53630800000000000000
+      internalID: 3906290256179982880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 241
+        width: 32
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a68776ba740b470800000000000000
+      internalID: 8408299305801640587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_28
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 290
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdac0deee34a0b10800000000000000
+      internalID: 1948444482249469375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 291
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c735146c85feabe70800000000000000
+      internalID: 9131874359009432444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 209
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47178c8bb877c67b0800000000000000
+      internalID: -5229673625299685004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 256
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87aca9d8a56e5770800000000000000
+      internalID: 8601424114205108106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eefff700d806700800000000000000
+      internalID: 531579789316714072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fef2ba7ddfe0e2f0800000000000000
+      internalID: -945492187222442247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_34
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 433
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f21535fdc86796e0800000000000000
+      internalID: -1830879489711336716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 432
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db7a0b984d3ab80800000000000000
+      internalID: -8384624393394340582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_36
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 435
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366552ecb21e21350800000000000000
+      internalID: 5986094432987207267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 437
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f19080a862880060800000000000000
+      internalID: 6919924213335757302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 434
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a2c265d97214ba0800000000000000
+      internalID: -6106556063028598266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_39
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 436
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9535beaff6d2be0800000000000000
+      internalID: -1500419977363891790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_40
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 479
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317f32e23840637d0800000000000000
+      internalID: -2939156745351334125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 480
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d68a2779435d9750800000000000000
+      internalID: 6313293827640297168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_42
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 479
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5969a84e1387c2b0800000000000000
+      internalID: -5564334648501638820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_43
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 479
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae4adc294bd93f80800000000000000
+      internalID: -8126222945281749343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d623f002dc077f6f0800000000000000
+      internalID: -650927594823273875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_45
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 470
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047c0315f01462a00800000000000000
+      internalID: 731343523536750400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 434
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138debc4596ec700800000000000000
+      internalID: 562502816387400478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_47
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 434
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a05f2045be3e380800000000000000
+      internalID: -8943045688968279515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_48
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 383
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667cb645e634f8740800000000000000
+      internalID: 5156414239504320358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f2d930a759dab90800000000000000
+      internalID: -7228957475580596359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41356fb5599527920800000000000000
+      internalID: 2986548000927929108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72b6e03b914f2670800000000000000
+      internalID: 8516097555177058943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 306
+        width: 94
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229f95b4e16102240800000000000000
+      internalID: 4764832725127002402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_53
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 259
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe6a759b2bc0da40800000000000000
+      internalID: 5391032142014344895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 254
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed5facaf9bd5fd60800000000000000
+      internalID: 7923480598271712745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 255
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09222bebfc8a86b0800000000000000
+      internalID: -5293263398411032307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_56
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 228
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d9ba8f7c902ac00800000000000000
+      internalID: 910300829157399877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_57
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 226
+        width: 93
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36aaa80bdeca58a0800000000000000
+      internalID: -6315508087295138241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_58
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 177
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27effbe6e4dab18c0800000000000000
+      internalID: -4027434889375646094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 193
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee30f496437a36cb0800000000000000
+      internalID: -4871866528337820690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a247c55fda25c0800000000000000
+      internalID: -4239330539707652648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 207
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf94106d9be5b0900800000000000000
+      internalID: 651718723337538043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 225
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5186128489acf4280800000000000000
+      internalID: -9056797570224789483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 223
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbf19f6c580fa9f0800000000000000
+      internalID: -455135844239279160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bd6335904dbf420800000000000000
+      internalID: 2664956741035678610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_65
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 223
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a839d813cc0e90800000000000000
+      internalID: -7058052004505410841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_66
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 257
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8325acdb8df7629b0800000000000000
+      internalID: -5105252558704061896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_67
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 160
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46077bfa99d555fe0800000000000000
+      internalID: -1200950810964955036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_68
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 163
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdd1edbfd29a0f70800000000000000
+      internalID: 9154290682245012919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_69
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 160
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08acf6edf7cb24d0800000000000000
+      internalID: -3158210820354299889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_70
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 193
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ac8220193db220800000000000000
+      internalID: 2503219709349765133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_71
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 191
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79592a481452dbc30800000000000000
+      internalID: 4376695376202339735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 161
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e81a45b44dbd050800000000000000
+      internalID: 5826483962941378170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_73
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 130
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22999479b3d72b160800000000000000
+      internalID: 7039826862428231970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_74
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 124
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076929acd0eb65720800000000000000
+      internalID: 2834661981918762608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_75
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 124
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36361e72969d56380800000000000000
+      internalID: -8978531236429339805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_76
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 130
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1821cb2e99b9710800000000000000
+      internalID: 1701122483359482277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_77
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 107
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae491515677ddd8a0800000000000000
+      internalID: -6278625402314189590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_78
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ca1a132dea59b20800000000000000
+      internalID: 3140608532959833213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7820c625749ce0800000000000000
+      internalID: -1399364774912295826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a472c7a4454d496e0800000000000000
+      internalID: -1831605689940957366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ac83cffaa975540800000000000000
+      internalID: 4996632392232389138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_82
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce7f21dc570d4ea0800000000000000
+      internalID: -5887041042675433789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_83
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 70
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04e47d8cb8212240800000000000000
+      internalID: 4765134671026906124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 87
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4236ff55e7d0c63a0800000000000000
+      internalID: -6670942111782706396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_85
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929d9873cfce80370800000000000000
+      internalID: 8289135682183092521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_86
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 129
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a281dbe800118100800000000000000
+      internalID: 108385496535761575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_87
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 161
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d45d69e266b680a0800000000000000
+      internalID: -6879610844822547241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_88
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 142
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033145ea9fe545ad0800000000000000
+      internalID: -2714440248932953296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_89
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 137
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c222c390002df60800000000000000
+      internalID: 8057502722982816792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_90
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495980733da2dc80800000000000000
+      internalID: -8299380726847415998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_91
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 117
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6bfcd39eee53b10800000000000000
+      internalID: 1960735898321532631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc1952a93f429b60800000000000000
+      internalID: 7751345017613524160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_93
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0533995d0cc86f330800000000000000
+      internalID: 3744334900050342736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_94
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7739d55c0ac839a0800000000000000
+      internalID: -6253025928275216517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_95
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 129
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f4b438f6399acb0800000000000000
+      internalID: -4852185016361595058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_96
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f45055352fcc690800000000000000
+      internalID: -7580417633048768693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_97
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 102
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a79a5d03c834690800000000000000
+      internalID: -7619092003209774579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e6a3c1e92cce440800000000000000
+      internalID: 4966558473417027193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_99
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 9
+        width: 31
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6b23416ec65f690800000000000000
+      internalID: -7569023863289104720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_100
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 98
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391b263f1914bf870800000000000000
+      internalID: 8717633598815121811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_101
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 64
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1818941c846503030800000000000000
+      internalID: 3472370183183106433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesets Modern + Mack by milkian on DeviantArt_102
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 65
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f975c63a1cbf70800000000000000
+      internalID: 9204260560982110758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

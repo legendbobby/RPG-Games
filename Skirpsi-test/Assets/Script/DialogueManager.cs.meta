@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0fc311a00db7996439ee76f0ae97c4e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inkFile: {instanceID: 0}
+  - nametag: {instanceID: 0}
+  - message: {instanceID: 0}
+  - customButton: {instanceID: 0}
+  - optionPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

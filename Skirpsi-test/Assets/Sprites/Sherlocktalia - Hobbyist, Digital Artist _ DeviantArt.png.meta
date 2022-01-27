@@ -1,0 +1,3322 @@
+fileFormatVersion: 2
+guid: 206ab21bc9a0f8b4cb4812f8778abed9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5849825507200608637
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_0
+  - first:
+      213: -6148835637350155499
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_1
+  - first:
+      213: -5520656342130814417
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_2
+  - first:
+      213: 9211146035272875725
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_3
+  - first:
+      213: -3009843240776893531
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_4
+  - first:
+      213: 5297922101444250262
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_5
+  - first:
+      213: -6346111573942680315
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_6
+  - first:
+      213: -4537016991550138066
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_7
+  - first:
+      213: 3581674389562234404
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_8
+  - first:
+      213: 2991032714349997677
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_9
+  - first:
+      213: -2002761718483655743
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_10
+  - first:
+      213: -3932937596589027761
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_11
+  - first:
+      213: -5898328612494416430
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_12
+  - first:
+      213: -7961378794446172371
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_13
+  - first:
+      213: -796574164547971497
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_14
+  - first:
+      213: 6340630306238226269
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_15
+  - first:
+      213: -64060945576240875
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_16
+  - first:
+      213: 4321754835519373373
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_17
+  - first:
+      213: -3574280374589335210
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_18
+  - first:
+      213: -3157559538123342544
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_19
+  - first:
+      213: 6048532441382829523
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_20
+  - first:
+      213: -9132848704308322333
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_21
+  - first:
+      213: -8299839787241780973
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_22
+  - first:
+      213: 279108088060726862
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_23
+  - first:
+      213: -3771457428113652116
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_24
+  - first:
+      213: 9110807419268981462
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_25
+  - first:
+      213: -5436413425949473955
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_26
+  - first:
+      213: 7963610949650520511
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_27
+  - first:
+      213: -6684554936614422838
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_28
+  - first:
+      213: -2828379229561231287
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_29
+  - first:
+      213: -2251455209025404798
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_30
+  - first:
+      213: 4832708311481655795
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_31
+  - first:
+      213: -2418334335355609758
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_32
+  - first:
+      213: -7533201112343208507
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_33
+  - first:
+      213: 1489760739289970025
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_34
+  - first:
+      213: -3190541976343097077
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_35
+  - first:
+      213: -951854981088160384
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_36
+  - first:
+      213: 2389446728866390384
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_37
+  - first:
+      213: 5360915533028707883
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_38
+  - first:
+      213: -6702421154714823505
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_39
+  - first:
+      213: -2301239451184682986
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_40
+  - first:
+      213: -7277828765631212820
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_41
+  - first:
+      213: -8438169746863827304
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_42
+  - first:
+      213: -365351337276656415
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_43
+  - first:
+      213: -3867815830069834231
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_44
+  - first:
+      213: -7533076558982577344
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_45
+  - first:
+      213: 2414493193786303790
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_46
+  - first:
+      213: -5352668196859054862
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_47
+  - first:
+      213: -7962800829555740048
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_48
+  - first:
+      213: -2427095282003075707
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_49
+  - first:
+      213: -2434379887090272234
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_50
+  - first:
+      213: 6716982156173397069
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_51
+  - first:
+      213: 8797860180232628030
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_52
+  - first:
+      213: -5102064312372841409
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_53
+  - first:
+      213: 871990515082564348
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_54
+  - first:
+      213: -4751473739781063913
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_55
+  - first:
+      213: 1903008488260597272
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_56
+  - first:
+      213: 6306292625183368574
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_57
+  - first:
+      213: -1703343354169803915
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_58
+  - first:
+      213: 3701067579895264642
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_59
+  - first:
+      213: -2738293280192355628
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_60
+  - first:
+      213: -8963242877650572389
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_61
+  - first:
+      213: 5757413803711162332
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_62
+  - first:
+      213: -1844527539040405704
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_63
+  - first:
+      213: 2322679249135259037
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_64
+  - first:
+      213: -8456050096481845513
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_65
+  - first:
+      213: -6219452824879222796
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_66
+  - first:
+      213: 5701491447991810252
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_67
+  - first:
+      213: 8872134804033078210
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_68
+  - first:
+      213: -5018820912030666843
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_69
+  - first:
+      213: -3879116959489438526
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_70
+  - first:
+      213: 3210600313876844942
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_71
+  - first:
+      213: 8758251151065635271
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_72
+  - first:
+      213: 8710739114274658728
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_73
+  - first:
+      213: 5275064428078531368
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_74
+  - first:
+      213: -2738512174212465627
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_75
+  - first:
+      213: 2473441197523783823
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_76
+  - first:
+      213: 8169518094343734845
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_77
+  - first:
+      213: -1051157148032491126
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_78
+  - first:
+      213: -645218031358070975
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_79
+  - first:
+      213: -5362886967434150050
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_80
+  - first:
+      213: 8447246650182728863
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_81
+  - first:
+      213: -996080874773859952
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_82
+  - first:
+      213: -8019400585299816625
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_83
+  - first:
+      213: -2860971523058118988
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_84
+  - first:
+      213: 4114793543344223976
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_85
+  - first:
+      213: -8984268135485702637
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_86
+  - first:
+      213: -2772923343266166662
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_87
+  - first:
+      213: 1347089972495082899
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_88
+  - first:
+      213: -1876062781789911179
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_89
+  - first:
+      213: -2699285680014822185
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_90
+  - first:
+      213: -1351108293410353471
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_91
+  - first:
+      213: 3531522949194719099
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_92
+  - first:
+      213: 524981773444442672
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_93
+  - first:
+      213: -1069460926932389353
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_94
+  - first:
+      213: 8437648740649929461
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_95
+  - first:
+      213: -3939747681118604883
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_96
+  - first:
+      213: -3684050693844515540
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_97
+  - first:
+      213: 7459311199156760439
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_98
+  - first:
+      213: -6242184338108197986
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_99
+  - first:
+      213: 1573349929826050710
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_100
+  - first:
+      213: -8770621204065078872
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_101
+  - first:
+      213: 7089364251280769892
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_102
+  - first:
+      213: 8714444703482515317
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_103
+  - first:
+      213: -8374913704438387897
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_104
+  - first:
+      213: -1734343997546352057
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_105
+  - first:
+      213: -6151851340615669609
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_106
+  - first:
+      213: 4317005852082069798
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_107
+  - first:
+      213: 7427660405789370775
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_108
+  - first:
+      213: 4507513725798598532
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_109
+  - first:
+      213: -6797595942641665820
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_110
+  - first:
+      213: 5936072149426860868
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_111
+  - first:
+      213: -9028934808617504257
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_112
+  - first:
+      213: 8189818684655528882
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_113
+  - first:
+      213: -5172593710920837328
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_114
+  - first:
+      213: 8143736966460365796
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_115
+  - first:
+      213: 6056031718489701869
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_116
+  - first:
+      213: 2632394916910470719
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_117
+  - first:
+      213: 6144793567296199136
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_118
+  - first:
+      213: 2489200442239670722
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_119
+  - first:
+      213: 6428320728275455488
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_120
+  - first:
+      213: 3700247373542443902
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_121
+  - first:
+      213: 5141097362223502860
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_122
+  - first:
+      213: 5441300394053062691
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_123
+  - first:
+      213: 3176937949121857858
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_124
+  - first:
+      213: 1401607563759344637
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_125
+  - first:
+      213: -7140274559351977303
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_126
+  - first:
+      213: 5925475264784221352
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_127
+  - first:
+      213: 1116058590441828050
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_128
+  - first:
+      213: -3328120233334285412
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_129
+  - first:
+      213: -3926039814287832238
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_130
+  - first:
+      213: -4788133330397727665
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_131
+  - first:
+      213: -5731898006187052516
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_132
+  - first:
+      213: 8793270531654786537
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_133
+  - first:
+      213: -3317083487003605770
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_134
+  - first:
+      213: -2878320301034596902
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_135
+  - first:
+      213: -8298903956481255064
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_136
+  - first:
+      213: 8061810694863948848
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_137
+  - first:
+      213: 2150775045955371580
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_138
+  - first:
+      213: -7785182418157513045
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_139
+  - first:
+      213: -4643166308651995764
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_140
+  - first:
+      213: 2199694875006658014
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_141
+  - first:
+      213: 5669293544556397037
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_142
+  - first:
+      213: -7245566578234723698
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_143
+  - first:
+      213: 7153577458744402634
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_144
+  - first:
+      213: 289400758809649198
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_145
+  - first:
+      213: 3056658838019523154
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_146
+  - first:
+      213: 17705750857412509
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_147
+  - first:
+      213: -6888568378140958112
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_148
+  - first:
+      213: -4459423088560794540
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_149
+  - first:
+      213: -4360235465292073441
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_150
+  - first:
+      213: 2743022933579865283
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_151
+  - first:
+      213: -3366964976768413115
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_152
+  - first:
+      213: -6897344422713432379
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_153
+  - first:
+      213: -5764454708173351507
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_154
+  - first:
+      213: -2745649039723271994
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_155
+  - first:
+      213: -2178413862779501075
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_156
+  - first:
+      213: -129778723127289454
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_157
+  - first:
+      213: 2924696371493421004
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_158
+  - first:
+      213: -1697098080887463619
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_159
+  - first:
+      213: 1199143856761501687
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_160
+  - first:
+      213: 7997513026804350106
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_161
+  - first:
+      213: -5699162956940314229
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_162
+  - first:
+      213: 5369247525290781825
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_163
+  - first:
+      213: -1302703917172116894
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_164
+  - first:
+      213: -8940825143863316573
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_165
+  - first:
+      213: 4252205632491329597
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_166
+  - first:
+      213: -2582864389457373893
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_167
+  - first:
+      213: 5407079373085646412
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_168
+  - first:
+      213: 3512312688459985591
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_169
+  - first:
+      213: -7007682580273266112
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_170
+  - first:
+      213: 1827232838002170753
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_171
+  - first:
+      213: 6664407195269307392
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_172
+  - first:
+      213: -2530660182789137247
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_173
+  - first:
+      213: 8258243275681011915
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_174
+  - first:
+      213: 2669844057476356586
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_175
+  - first:
+      213: 5788304362696600404
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_176
+  - first:
+      213: -8405687902638194783
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_177
+  - first:
+      213: 4364376581703864873
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_178
+  - first:
+      213: 3702075654869324800
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_179
+  - first:
+      213: -5208099761507960337
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_180
+  - first:
+      213: -3676234359483341765
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_181
+  - first:
+      213: -5957025278002556257
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_182
+  - first:
+      213: 835771383356933985
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_183
+  - first:
+      213: -3160869483616109055
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_184
+  - first:
+      213: 3170810366332886753
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_185
+  - first:
+      213: -3104436174473166258
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_186
+  - first:
+      213: -8611503381120132875
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_187
+  - first:
+      213: 6641336442786942189
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_188
+  - first:
+      213: -6297026314073245340
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_189
+  - first:
+      213: 8008436353464207949
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_190
+  - first:
+      213: -8613207045715280872
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_191
+  - first:
+      213: -7137529757231942948
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_192
+  - first:
+      213: 9000267167737297638
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_193
+  - first:
+      213: 8827236768365231118
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_194
+  - first:
+      213: -6506468698912264691
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_195
+  - first:
+      213: 8700516832783948135
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_196
+  - first:
+      213: -3702480300780573813
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_197
+  - first:
+      213: -5467968936759872569
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_198
+  - first:
+      213: -1642019239966252478
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_199
+  - first:
+      213: 2553468870278089859
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_200
+  - first:
+      213: -2981206179664081983
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_201
+  - first:
+      213: 4909156926071148499
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_202
+  - first:
+      213: 959723593253709940
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_203
+  - first:
+      213: 4225962508284765903
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_204
+  - first:
+      213: 6893796302250822365
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_205
+  - first:
+      213: 4251902643787097663
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_206
+  - first:
+      213: 204508766654483702
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_207
+  - first:
+      213: 2695255243219521986
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_208
+  - first:
+      213: 3491767439868764704
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_209
+  - first:
+      213: -7060950245163109476
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_210
+  - first:
+      213: -4307551132370995898
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_211
+  - first:
+      213: 3761795606303117010
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_212
+  - first:
+      213: 3808318886239793039
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_213
+  - first:
+      213: 7148506214249934492
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_214
+  - first:
+      213: -5845655467559016730
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_215
+  - first:
+      213: 6995421110748734021
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_216
+  - first:
+      213: -6298268709862420258
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_217
+  - first:
+      213: -7499639444209693901
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_218
+  - first:
+      213: -7338532019107544176
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_219
+  - first:
+      213: -2285647712587413289
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_220
+  - first:
+      213: -7789632771628478177
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_221
+  - first:
+      213: -6735545875328367195
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_222
+  - first:
+      213: -5034722224613676974
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_223
+  - first:
+      213: 619494967614809183
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_224
+  - first:
+      213: -7671483539573611546
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_225
+  - first:
+      213: -3575103491208462317
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_226
+  - first:
+      213: -3692179877643428720
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_227
+  - first:
+      213: -1382517537255416343
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_228
+  - first:
+      213: 7461942486089652127
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_229
+  - first:
+      213: 448684490491656432
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_230
+  - first:
+      213: -1849651642817145219
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_231
+  - first:
+      213: -2937228410133900014
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_232
+  - first:
+      213: 1371501648119209434
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_233
+  - first:
+      213: 7341496160546360332
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_234
+  - first:
+      213: 5685842033273818935
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_235
+  - first:
+      213: -2936579124596746248
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_236
+  - first:
+      213: -1881034013819160768
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_237
+  - first:
+      213: -471357132444120584
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_238
+  - first:
+      213: -2936386601167927114
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_239
+  - first:
+      213: 6112680853970180883
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_240
+  - first:
+      213: 8146777670927845851
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_241
+  - first:
+      213: 140782563316929083
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_242
+  - first:
+      213: 8931423079160969515
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_243
+  - first:
+      213: 8482832711711500326
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_244
+  - first:
+      213: -7990342609028637613
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_245
+  - first:
+      213: 2921677466750912936
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_246
+  - first:
+      213: -3088596827888470270
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_247
+  - first:
+      213: 5102110950119258113
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_248
+  - first:
+      213: 5161695268389841039
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_249
+  - first:
+      213: -1766675151608352185
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_250
+  - first:
+      213: 6475217409962368670
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_251
+  - first:
+      213: 5077861714241160293
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_252
+  - first:
+      213: 6178814659946276201
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_253
+  - first:
+      213: -3234466670229342119
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_254
+  - first:
+      213: -5001535019983971227
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_255
+  - first:
+      213: 8423686979934791608
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_256
+  - first:
+      213: 5416469462282445015
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_257
+  - first:
+      213: -8491244395183018282
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_258
+  - first:
+      213: 1863372791909315745
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_259
+  - first:
+      213: -2337448402176070815
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_260
+  - first:
+      213: 7762900184918467503
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_261
+  - first:
+      213: 707021126285645368
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_262
+  - first:
+      213: 2784961179548275496
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_263
+  - first:
+      213: 7637381348954330725
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_264
+  - first:
+      213: 1355735787336294402
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_265
+  - first:
+      213: 5881745411449915867
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_266
+  - first:
+      213: -8181941925883953098
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_267
+  - first:
+      213: 3808523164635209786
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_268
+  - first:
+      213: 2243036186774235512
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_269
+  - first:
+      213: -2847998635429844899
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_270
+  - first:
+      213: 2950259214313035383
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_271
+  - first:
+      213: -3445486529919156680
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_272
+  - first:
+      213: 6055776444654610998
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_273
+  - first:
+      213: -6370823043568721781
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_274
+  - first:
+      213: 6734210433082142586
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_275
+  - first:
+      213: 1428132791863729171
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_276
+  - first:
+      213: 440446277028927429
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_277
+  - first:
+      213: -2438708127173563153
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_278
+  - first:
+      213: -5809150881897942012
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_279
+  - first:
+      213: 6897667992581287641
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_280
+  - first:
+      213: -6264453586809474348
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_281
+  - first:
+      213: -9214054452818344971
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_282
+  - first:
+      213: -2820032478681559389
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_283
+  - first:
+      213: 7111575643245694292
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_284
+  - first:
+      213: 8374783280369634297
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_285
+  - first:
+      213: 5401506033507452350
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_286
+  - first:
+      213: -2828854203198857989
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_287
+  - first:
+      213: 7823961756932954890
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_288
+  - first:
+      213: -1363746747121936417
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_289
+  - first:
+      213: -5544734446192686948
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_290
+  - first:
+      213: 8552313446026967622
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_291
+  - first:
+      213: -4828699097504720328
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_292
+  - first:
+      213: 8040594288593793555
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_293
+  - first:
+      213: -195689713341667837
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_294
+  - first:
+      213: 1592090820934929939
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_295
+  - first:
+      213: -5969804381062028821
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_296
+  - first:
+      213: 6366860264002160294
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_297
+  - first:
+      213: 4164316526540148931
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_298
+  - first:
+      213: -6521462777809271833
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_299
+  - first:
+      213: 6963371230477625777
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_300
+  - first:
+      213: 4877479087084246069
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_301
+  - first:
+      213: -8145275407879728120
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_302
+  - first:
+      213: 2448769666880886106
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_303
+  - first:
+      213: -4523207839379401441
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_304
+  - first:
+      213: 862505347095728726
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_305
+  - first:
+      213: 20184478386476286
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_306
+  - first:
+      213: 4723534932863275317
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_307
+  - first:
+      213: 3508902067398642931
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_308
+  - first:
+      213: -2916774794240811459
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_309
+  - first:
+      213: 4151502207565702196
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_310
+  - first:
+      213: 2275992933304395773
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_311
+  - first:
+      213: 4197423803880502344
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_312
+  - first:
+      213: -1127481881766892936
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_313
+  - first:
+      213: 297772439115575120
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_314
+  - first:
+      213: 8962177188689562021
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_315
+  - first:
+      213: -287406755900623524
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_316
+  - first:
+      213: 7865434417464154226
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_317
+  - first:
+      213: -4633201007493042770
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_318
+  - first:
+      213: 5532995337764797419
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_319
+  - first:
+      213: -6809812814753265933
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_320
+  - first:
+      213: -8637230904995940378
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_321
+  - first:
+      213: -6731636758128067126
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_322
+  - first:
+      213: -291085601252966983
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_323
+  - first:
+      213: -2972934391816346461
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_324
+  - first:
+      213: 4236767966401681952
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_325
+  - first:
+      213: 5171669102035193805
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_326
+  - first:
+      213: -3548805360490994552
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_327
+  - first:
+      213: 32705427903678165
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_328
+  - first:
+      213: -483360661603056700
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_329
+  - first:
+      213: 8616880868693077913
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_330
+  - first:
+      213: -3953034886850229432
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_331
+  - first:
+      213: 5358471972066015119
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_332
+  - first:
+      213: -695104369831092973
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_333
+  - first:
+      213: 3136775518682913329
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_334
+  - first:
+      213: 3875037787042172978
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_335
+  - first:
+      213: 1125512016720098328
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_336
+  - first:
+      213: -6492537645312512096
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_337
+  - first:
+      213: 677382903729670606
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_338
+  - first:
+      213: 2315707512917758290
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_339
+  - first:
+      213: 1450996945949916961
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_340
+  - first:
+      213: 1692098861902474338
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_341
+  - first:
+      213: 2407925599561736312
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_342
+  - first:
+      213: -4935106025838579478
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_343
+  - first:
+      213: -5745150187851420414
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_344
+  - first:
+      213: 1404285889970989726
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_345
+  - first:
+      213: 1291164669045229998
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_346
+  - first:
+      213: -9006080973247637358
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_347
+  - first:
+      213: 131761729540835363
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_348
+  - first:
+      213: -1238384614263641145
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_349
+  - first:
+      213: 4347349615910690818
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_350
+  - first:
+      213: 8819840868904736630
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_351
+  - first:
+      213: 3135816654636093508
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_352
+  - first:
+      213: 678047366194976093
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_353
+  - first:
+      213: 1887079031727558945
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_354
+  - first:
+      213: -7605246049562044564
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_355
+  - first:
+      213: -1010020616106699201
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_356
+  - first:
+      213: -5455149797116001562
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_357
+  - first:
+      213: 5148836512147726943
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_358
+  - first:
+      213: 6071890217257400026
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_359
+  - first:
+      213: 1145314475167419560
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_360
+  - first:
+      213: 3209935445479508513
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_361
+  - first:
+      213: -6332588958582185805
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_362
+  - first:
+      213: -4138884952005272526
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_363
+  - first:
+      213: 7198220053939570148
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_364
+  - first:
+      213: -3440925213775136465
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_365
+  - first:
+      213: -6765675686394756240
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_366
+  - first:
+      213: -3362801228289578424
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_367
+  - first:
+      213: -791973902160259966
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_368
+  - first:
+      213: -3020135706933726904
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_369
+  - first:
+      213: 311881491618207091
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_370
+  - first:
+      213: -5702482181954137774
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_371
+  - first:
+      213: 5034280731750451411
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_372
+  - first:
+      213: 5302991154675788828
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_373
+  - first:
+      213: 6503690714163394803
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_374
+  - first:
+      213: 8260402690061169605
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_375
+  - first:
+      213: -6111131283563712423
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_376
+  - first:
+      213: 2786503442837307621
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_377
+  - first:
+      213: 393337893748613940
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_378
+  - first:
+      213: -5926649026279559104
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_379
+  - first:
+      213: 4253444625925829764
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_380
+  - first:
+      213: 5535296137694158085
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_381
+  - first:
+      213: -2556909157623295810
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_382
+  - first:
+      213: 7414059825284595574
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_383
+  - first:
+      213: 2451706896729837857
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_384
+  - first:
+      213: -4971254937332573853
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_385
+  - first:
+      213: -4085965588664702106
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_386
+  - first:
+      213: -6300631483797873049
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_387
+  - first:
+      213: -7887880804922219487
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_388
+  - first:
+      213: -3221330639891588502
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_389
+  - first:
+      213: 1689903432261332677
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_390
+  - first:
+      213: 6668227745256045417
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_391
+  - first:
+      213: -7201830852800839420
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_392
+  - first:
+      213: -1378885340776428839
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_393
+  - first:
+      213: -5559716023008870295
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_394
+  - first:
+      213: 4432421473110497406
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_395
+  - first:
+      213: -1453271785312968016
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_396
+  - first:
+      213: 5652005474072311617
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_397
+  - first:
+      213: -5399793591799951142
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_398
+  - first:
+      213: 3409844128656298927
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_399
+  - first:
+      213: -708816720055293354
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_400
+  - first:
+      213: 4503254946971504928
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_401
+  - first:
+      213: 5003091025421481976
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_402
+  - first:
+      213: 5937827193400496302
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_403
+  - first:
+      213: 6476503068093664294
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_404
+  - first:
+      213: 174022843893854141
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_405
+  - first:
+      213: 7093365320510139322
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_406
+  - first:
+      213: 2250303844619331248
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_407
+  - first:
+      213: 8304565934423424587
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_408
+  - first:
+      213: 7201640064331112673
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_409
+  - first:
+      213: 1606112446158049638
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_410
+  - first:
+      213: 2687970571477925987
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_411
+  - first:
+      213: -2780991275481397213
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_412
+  - first:
+      213: -1635094359185371371
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_413
+  - first:
+      213: 2223269406859722041
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_414
+  - first:
+      213: -5148499345009125404
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_415
+  - first:
+      213: 589915982894671678
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_416
+  - first:
+      213: -7496138466546229517
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_417
+  - first:
+      213: 5144222730581045432
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_418
+  - first:
+      213: 9196826219883609201
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_419
+  - first:
+      213: 6444821033109823842
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_420
+  - first:
+      213: 7250164965746557406
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_421
+  - first:
+      213: 8521850904977022346
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_422
+  - first:
+      213: -859634590931010338
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_423
+  - first:
+      213: -347852791456731768
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_424
+  - first:
+      213: 8989938712059348447
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_425
+  - first:
+      213: 963107714579791057
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_426
+  - first:
+      213: 9059390182848993495
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_427
+  - first:
+      213: 8229640455966028121
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_428
+  - first:
+      213: 924715943919050831
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_429
+  - first:
+      213: -3173224634418058537
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_430
+  - first:
+      213: -955648914237803492
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_431
+  - first:
+      213: -9171240242778468587
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_432
+  - first:
+      213: 2942375062771723783
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_433
+  - first:
+      213: -9039927931505732940
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_434
+  - first:
+      213: -4325705933761927151
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_435
+  - first:
+      213: 3429627273754154479
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_436
+  - first:
+      213: 3564274608984989507
+    second: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_437
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 286
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7926ba1e41ce2150800000000000000
+      internalID: 5849825507200608637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 286
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b3b75d092faaaa0800000000000000
+      internalID: -6148835637350155499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 286
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2219487e40b263b0800000000000000
+      internalID: -5520656342130814417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 283
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceffae248094df70800000000000000
+      internalID: 9211146035272875725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 299
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abf1e3f483ea36d0800000000000000
+      internalID: -3009843240776893531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a8648e410068940800000000000000
+      internalID: 5297922101444250262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505c62a85251ee7a0800000000000000
+      internalID: -6346111573942680315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 204
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e291eb695174901c0800000000000000
+      internalID: -4537016991550138066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_8
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 241
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42698fa71e9a4b130800000000000000
+      internalID: 3581674389562234404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 242
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e67621868428920800000000000000
+      internalID: 2991032714349997677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3e70004d2c434e0800000000000000
+      internalID: -2002761718483655743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 173
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e488fe7166b69c0800000000000000
+      internalID: -3932937596589027761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 200
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d56fbba06de42ea0800000000000000
+      internalID: -5898328612494416430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 153
+        width: 42
+        height: 44
+      alignment: 9
+      pivot: {x: 0.41889, y: 0.7230525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f45baea20838190800000000000000
+      internalID: -7961378794446172371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 154
+        width: 73
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7565ddc840002f4f0800000000000000
+      internalID: -796574164547971497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd76f5ba17ef750800000000000000
+      internalID: 6340630306238226269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 138
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519d3fec8e86c1ff0800000000000000
+      internalID: -64060945576240875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_17
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 135
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3085711025f9fb30800000000000000
+      internalID: 4321754835519373373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 94
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d3f8cfea956ec0800000000000000
+      internalID: -3574280374589335210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df20d54581e24d0800000000000000
+      internalID: -3157559538123342544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 22
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddbc0d7534b0f350800000000000000
+      internalID: 6048532441382829523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 24
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efd058cd7a914180800000000000000
+      internalID: -9132848704308322333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 45
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319cccc10bb01dc80800000000000000
+      internalID: -8299839787241780973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 33
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e4ccac3579fd300800000000000000
+      internalID: 279108088060726862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 67
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6607cf737719abc0800000000000000
+      internalID: -3771457428113652116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d26582a317107e70800000000000000
+      internalID: 9110807419268981462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d530e1edacafd84b0800000000000000
+      internalID: -5436413425949473955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9945737fd648e60800000000000000
+      internalID: 7963610949650520511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 286
+        width: 22
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6738193b0bb33a0800000000000000
+      internalID: -6684554936614422838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 307
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948e8eb73149fb8d0800000000000000
+      internalID: -2828379229561231287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_30
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 240
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28086568a6931c0e0800000000000000
+      internalID: -2251455209025404798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 233
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f121f0ca9a311340800000000000000
+      internalID: 4832708311481655795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 225
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9ff02cb9507ed0800000000000000
+      internalID: -2418334335355609758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 220
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd943d3081b47790800000000000000
+      internalID: -7533201112343208507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 219
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965b3b1df71bca410800000000000000
+      internalID: 1489760739289970025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_35
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 212
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d81b0afae8b3d0800000000000000
+      internalID: -3190541976343097077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_36
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 212
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085dd8610f45ac2f0800000000000000
+      internalID: -951854981088160384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 211
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071eccbd325092120800000000000000
+      internalID: 2389446728866390384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_38
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 239
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ecc01264cc56a40800000000000000
+      internalID: 5360915533028707883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_39
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 262
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4d82288773cf2a0800000000000000
+      internalID: -6702421154714823505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 222
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618a50169ea5010e0800000000000000
+      internalID: -2301239451184682986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_41
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 243
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce29e681c45fffa90800000000000000
+      internalID: -7277828765631212820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_42
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 242
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896dbb3925995ea80800000000000000
+      internalID: -8438169746863827304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 255
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 2, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4396bf4e20eeaf0800000000000000
+      internalID: -365351337276656415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_44
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 195
+        width: 22
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e0e00cef1c25ac0800000000000000
+      internalID: -3867815830069834231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 185
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043850418c2257790800000000000000
+      internalID: -7533076558982577344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 197
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e252b3864c0028120800000000000000
+      internalID: 2414493193786303790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 197
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f47fa572a087b5b0800000000000000
+      internalID: -5352668196859054862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_48
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 204
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072f42195d27e7190800000000000000
+      internalID: -7962800829555740048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_49
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 153
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d1e2843b9315ed0800000000000000
+      internalID: -2427095282003075707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_50
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 196
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618f0adf368573ed0800000000000000
+      internalID: -2434379887090272234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 197
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4a55dea3873d50800000000000000
+      internalID: 6716982156173397069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e15a8837481a70800000000000000
+      internalID: 8797860180232628030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_53
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 176
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34b1df2a83d139b0800000000000000
+      internalID: -5102064312372841409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_54
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 175
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29103e0cee91c00800000000000000
+      internalID: 871990515082564348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_55
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 197
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bb0ccdecf5f0eb0800000000000000
+      internalID: -4751473739781063913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_56
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 197
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81673533328d86a10800000000000000
+      internalID: 1903008488260597272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_57
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 175
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7568bdfab3748750800000000000000
+      internalID: 6306292625183368574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 131
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bbf2c7e328c58e0800000000000000
+      internalID: -1703343354169803915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_59
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 153
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2853f55da55dc5330800000000000000
+      internalID: 3701067579895264642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_60
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 133
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2ab4f05c0aff9d0800000000000000
+      internalID: -2738293280192355628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 112
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b6612971a2c9380800000000000000
+      internalID: -8963242877650572389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_62
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 109
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd76223b95176ef40800000000000000
+      internalID: 5757413803711162332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_63
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 98
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8373219d9fbe666e0800000000000000
+      internalID: -1844527539040405704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_64
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 89
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dc0e39870db3020800000000000000
+      internalID: 2322679249135259037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_65
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 116
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feba444d3316aa80800000000000000
+      internalID: -8456050096481845513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 86
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff26cb9b9010b9a0800000000000000
+      internalID: -6219452824879222796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 23
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8ba7f9344cf1f40800000000000000
+      internalID: 5701491447991810252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c385c10997202b70800000000000000
+      internalID: 8872134804033078210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_69
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 6
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af2c1ba8f0995ab0800000000000000
+      internalID: -5018820912030666843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_70
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc40738dab9a2ac0800000000000000
+      internalID: -3879116959489438526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81136899f75e8c20800000000000000
+      internalID: 3210600313876844942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_72
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c95ce8c40f8b8970800000000000000
+      internalID: 8758251151065635271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_73
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9117da213c2e870800000000000000
+      internalID: 8710739114274658728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_74
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 67
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8238bea162bc43940800000000000000
+      internalID: 5275064428078531368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 21
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cbbf2dfa9def9d0800000000000000
+      internalID: -2738512174212465627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_76
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 22
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80d83f0aad635220800000000000000
+      internalID: 2473441197523783823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_77
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 23
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d360c7f3c65ff5170800000000000000
+      internalID: 8169518094343734845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_78
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 22
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a812964a42a8961f0800000000000000
+      internalID: -1051157148032491126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa9367e99bb07f0800000000000000
+      internalID: -645218031358070975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_80
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 4
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ff38787b23395b0800000000000000
+      internalID: -5362886967434150050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 65
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cff3aa216aa3570800000000000000
+      internalID: 8447246650182728863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_82
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 6
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0913b8bc8b53d22f0800000000000000
+      internalID: -996080874773859952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_83
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 4
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f05a108ad55b090800000000000000
+      internalID: -8019400585299816625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_84
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 5
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4becc9fce89cb48d0800000000000000
+      internalID: -2860971523058118988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_85
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 75
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e67a133deeaa1930800000000000000
+      internalID: 4114793543344223976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_86
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 75
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e73814bb7715380800000000000000
+      internalID: -8984268135485702637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_87
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a784b3f29e89489d0800000000000000
+      internalID: -2772923343266166662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_88
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 117
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3956f0b5133d1b210800000000000000
+      internalID: 1347089972495082899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sherlocktalia - Hobbyist, Digital Artist _ DeviantArt_89
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 111
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577c41bf6d2e6f5e0800000000000000
+      internalID: -1876062781789911179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
