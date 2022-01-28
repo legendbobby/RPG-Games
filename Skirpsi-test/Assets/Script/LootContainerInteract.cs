@@ -43,14 +43,14 @@ public class LootContainerInteract : Interactable
 
             if (inventory.items.Count == 0)
             {
-                notif.Show("Mengammbil " + item.name);
+                notif.Show("Mengambil " + item.name);
                 inventory.Add(item);
             }
         }
         else if (PSItem != null)
         {
             Debug.Log("coba2");
-            notif.Show("Problem Solving" + PSItem.title + "ditambakan");
+            notif.Show("Problem Solving " + PSItem.title + " ditambakan");
             psolving.ParsingFile(PSItem);
         }
         
