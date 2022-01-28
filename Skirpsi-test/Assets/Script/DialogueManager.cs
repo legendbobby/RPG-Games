@@ -44,9 +44,13 @@ public class DialogueManager : MonoBehaviour
     {
         if (!isTalking)
         {
-            if(Input.GetKeyDown(KeyCode.Space) && (disableInput == false) && (startdialogue))
+            if(Input.GetKeyDown(KeyCode.Space) && (disableInput == false) && (startdialogue) && (story.canContinue))
             {
                 StartDialogue();
+            }
+            else if (Input.GetKeyDown(KeyCode.Space) && (disableInput == false) && (startdialogue) && (!story.canContinue))
+            {
+                FinishDialogue();
             }
         }
         if (story != null)
@@ -125,23 +129,23 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        else if (!story.canContinue && !finish && storyscript.state!="")
+        else if (!story.canContinue && !finish)
         {
             Debug.Log("Start ke-3");
             story.ChoosePathString(storyscript.state);
             Debug.Log(storyscript.state);
-            
-            if (!textBox.activeSelf)
+            StartDialogue();
+            /*if (!textBox.activeSelf)
             {
                 textBox.SetActive(true);
-            }
+            }*/
             //AdvanceDialogue();
-            if (Input.GetKeyDown(KeyCode.Space) && (disableInput == false))
+            /*if (Input.GetKeyDown(KeyCode.Space) && (disableInput == false))
             {
                 FinishDialogue();
 
                 Debug.Log("state beda,End of Dialogue!");
-            }
+            }*/
         }
 
         /*else if(!story.canContinue && !finish)
@@ -228,19 +232,19 @@ public class DialogueManager : MonoBehaviour
             {
                 if (i == 3)
                 {
-                    pos.x += 450;
+                    pos.x += 400;
                     pos.y = tempy;
                 }
                 else
                 {
-                    pos.y -= 60;
+                    pos.y -= 45;
                 }
                
 
             }
             else 
             {
-                pos.y -= 60;
+                pos.y -= 45;
             }
            
             //GameObject temp = Instantiate(customButton, optionPanel.transform);
@@ -279,7 +283,10 @@ public class DialogueManager : MonoBehaviour
             Destroy(optionPanel.transform.GetChild(i).gameObject);
         }
         choiceSelected = null;
+     
         AdvanceDialogue();
+        
+      
         // Forgot to reset the choiceSelected. Otherwise, it would select an option without player intervention.
         //StartDialogue();
     }
