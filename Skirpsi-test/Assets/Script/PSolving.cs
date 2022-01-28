@@ -228,6 +228,11 @@ public class PSolving : MonoBehaviour
         qpanel.SetActive(true);
         confirm.SetActive(true);
     }
+    public void OnTtPButton()
+    { 
+        //check progress
+        
+    }
    
     void ShowAnswer()
     {
