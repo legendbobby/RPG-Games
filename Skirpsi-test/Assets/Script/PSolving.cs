@@ -94,6 +94,7 @@ public class PSolving : MonoBehaviour
             Debug.Log("jawaban = " + currentchoice);
             if (qtext.text == pSItems.soal_UtP_1)
             {
+                pSItems.PSItemState.Uts_1_jawaban = currentchoice;
                 if (pSItems.UtP_1_jawaban == currentchoice && confirm2 == true)
                 {
                    
@@ -125,6 +126,7 @@ public class PSolving : MonoBehaviour
             }
             else if (qtext.text == pSItems.soal_UtP_2)
             {
+                pSItems.PSItemState.Uts_2_jawaban = currentchoice;
                 if (pSItems.UtP_2_jawaban == currentchoice && confirm2 == true)
                 {
                     pSItems.PSItemState.Uts_2_state = true;
@@ -157,9 +159,10 @@ public class PSolving : MonoBehaviour
             }
             else if (qtext.text == pSItems.soal_DaP)
             {
+                pSItems.PSItemState.DaP_jawaban = currentchoice;
                 if (pSItems.DaP_jawaban == currentchoice && confirm2 == true)
                 {
-                    pSItems.PSItemState.Uts_2_state = true;
+                    pSItems.PSItemState.DaP_state = true;
                     qoption.SetActive(false);
                     qpanel.SetActive(false);
                     confirm.SetActive(false);
@@ -174,7 +177,7 @@ public class PSolving : MonoBehaviour
 
                 else if (pSItems.DaP_jawaban != currentchoice && confirm2 == true)
                 {
-                    pSItems.PSItemState.Uts_2_state = false;
+                    pSItems.PSItemState.DaP_state = false;
                     qoption.SetActive(false);
                     qpanel.SetActive(false);
                     confirm.SetActive(false);
