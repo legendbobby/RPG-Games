@@ -17,6 +17,10 @@ public class PSItemState
         TP_pc2 = 0;
         TP_pc3 = 0;
         TP_pc4 = 0;
+        TP_pc1_pos = default;
+        TP_pc2_pos = default;
+        TP_pc3_pos = default;
+        TP_pc4_pos = default;
         Review_state = false;
         
 
@@ -31,8 +35,16 @@ public class PSItemState
     public int DaP_jawaban { get; set; } = 0;
     public bool TP_state { get; set; } = false;
     public int TP_pc1 { get; set; } = 0;
+    public Vector3 TP_pc1_pos { get; set; } =default;
     public int TP_pc2 { get; set; } = 0;
+    public Vector3 TP_pc2_pos { get; set; } = default;
     public int TP_pc3 { get; set; } = 0;
+    public Vector3 TP_pc3_pos { get; set; } = default;
     public int TP_pc4 { get; set; } = 0;
+    public Vector3 TP_pc4_pos { get; set; } = default;
+    public bool pc1_state { get; set; } = false;
+    public bool pc2_state { get; set; } = false;
+    public bool pc3_state { get; set; } = false;
+    public bool pc4_state { get; set; } = false;
     public bool Review_state { get; set; } = false;
 }

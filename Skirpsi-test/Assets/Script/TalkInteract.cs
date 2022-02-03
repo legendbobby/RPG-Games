@@ -10,14 +10,23 @@ public class TalkInteract : Interactable
 
     [SerializeField] public TextAsset inkFile;
     [SerializeField] public string nameChar;
-    [SerializeField] public GameObject nama;
+    [SerializeField] public GameObject pc;
     
+
 
     public override void Interact(Character character)
     {
-        Debug.Log("Mulai percakapan");
-        GameManager.instance.dialogueManager.ParsingFile(inkFile,nameChar);
-        GameManager.instance.dialogueManager.StartDialogue();
-        
+        if (inkFile != null)
+        {
+            GameManager.instance.dialogueManager.ParsingFile(inkFile, nameChar);
+            GameManager.instance.dialogueManager.StartDialogue();
+        }
+        else if (pc != null)
+        {
+            GameManager.instance.comp_Sys.OnPCInteract(pc);
+
+        }
+
+
     }
 }

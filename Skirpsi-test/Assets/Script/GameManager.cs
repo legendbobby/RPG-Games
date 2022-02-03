@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public StoryScript storyscript;
     public PSolving psolving;
     public Notif_sys notif;
+    public Comp_Sys comp_Sys;
+    public PSItem pSItem;
    
 
 

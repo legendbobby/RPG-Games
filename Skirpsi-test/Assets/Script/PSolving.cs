@@ -42,12 +42,12 @@ public class PSolving : MonoBehaviour
     int currentchoice;
     bool confirm2;
     GameObject temp2;
-    
+    Comp_Sys comp_Sys;
     // Update is called once per frame
     private void Start()
     {
         qtext = qpanel.transform.GetChild(0).GetComponent<Text>();
-
+        comp_Sys = GameManager.instance.comp_Sys;
     }
     void Update()
     {
@@ -79,7 +79,7 @@ public class PSolving : MonoBehaviour
     public void ParsingFile(PSItem pSItem)
     {
         pSItems = pSItem;
-
+        comp_Sys.psItem = pSItem;
     }
     public void OnCloseButton()
     {

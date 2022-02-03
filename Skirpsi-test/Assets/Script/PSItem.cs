@@ -24,6 +24,11 @@ public class PSItem : ScriptableObject
     [SerializeField] public List<string> pc2;
     [SerializeField] public List<string> pc3;
     [SerializeField] public List<string> pc4;
+    [SerializeField] public int pc1_jawaban;
+    [SerializeField] public int pc2_jawaban;
+    [SerializeField] public int pc3_jawaban;
+    [SerializeField] public int pc4_jawaban;
+
 
     Photo foto;
 
