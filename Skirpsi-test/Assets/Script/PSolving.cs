@@ -46,6 +46,8 @@ public class PSolving : MonoBehaviour
     GameObject temp2;
     Comp_Sys comp_Sys;
     bool reviewstate = false;
+    Vector3 position;
+    int jawaban;
     // Update is called once per frame
     private void Start()
     {
@@ -98,6 +100,7 @@ public class PSolving : MonoBehaviour
             if (qtext.text == pSItems.soal_UtP_1)
             {
                 pSItems.PSItemState.Uts_1_jawaban = currentchoice;
+                pSItems.PSItemState.UtS_1_pos = position;
                 if (pSItems.UtP_1_jawaban == currentchoice && confirm2 == true)
                 {
                    
@@ -126,10 +129,12 @@ public class PSolving : MonoBehaviour
 
                     Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.UtP_1_jawaban);
                 }
+                
             }
             else if (qtext.text == pSItems.soal_UtP_2)
             {
                 pSItems.PSItemState.Uts_2_jawaban = currentchoice;
+                pSItems.PSItemState.UtS_2_pos = position;
                 if (pSItems.UtP_2_jawaban == currentchoice && confirm2 == true)
                 {
                     pSItems.PSItemState.Uts_2_state = true;
@@ -163,6 +168,7 @@ public class PSolving : MonoBehaviour
             else if (qtext.text == pSItems.soal_DaP)
             {
                 pSItems.PSItemState.DaP_jawaban = currentchoice;
+                pSItems.PSItemState.DaP_pos = position;
                 if (pSItems.DaP_jawaban == currentchoice && confirm2 == true)
                 {
                     pSItems.PSItemState.DaP_state = true;
@@ -206,8 +212,8 @@ public class PSolving : MonoBehaviour
         PB_panel.SetActive(false);
         qtext.text = pSItems.soal_UtP_1;
         choice = pSItems.choice_UtP_1;
-
-       
+        position = pSItems.PSItemState.UtS_1_pos;
+        jawaban = pSItems.PSItemState.Uts_1_jawaban; 
         ShowAnswer();
         qpanel.SetActive(true);
         confirm.SetActive(true);
@@ -217,8 +223,8 @@ public class PSolving : MonoBehaviour
         PB_panel.SetActive(false);
         qtext.text = pSItems.soal_UtP_2;
         choice = pSItems.choice_UtP_2;
-
-
+        position = pSItems.PSItemState.UtS_2_pos;
+        jawaban = pSItems.PSItemState.Uts_2_jawaban;
         ShowAnswer();
         qpanel.SetActive(true);
         confirm.SetActive(true);
@@ -228,7 +234,8 @@ public class PSolving : MonoBehaviour
         PB_panel.SetActive(false);
         qtext.text = pSItems.soal_DaP;
         choice = pSItems.choice_DaP;
-
+        position = pSItems.PSItemState.DaP_pos;
+        jawaban = pSItems.PSItemState.DaP_jawaban;
 
         ShowAnswer();
         qpanel.SetActive(true);
@@ -371,6 +378,10 @@ public class PSolving : MonoBehaviour
 
             });
         }
+        if(reviewstate)
+        {
+            Confirmation(jawaban - 1, position);
+        }
         qoption.SetActive(true);
 
         
@@ -381,6 +392,7 @@ public class PSolving : MonoBehaviour
         temp2 = Instantiate(qbutton_select, new Vector3(newpos.x, newpos.y, newpos.z), Quaternion.identity, qoption.transform);
         temp2.transform.GetChild(0).GetComponent<Text>().text = choice[buttonindex];
         currentchoice = buttonindex + 1;
+        position = newpos;
         temp2.GetComponent<Button>().onClick.AddListener(() =>
         {
             Destroy(temp2.gameObject);
