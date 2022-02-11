@@ -30,6 +30,7 @@ public class PSolving : MonoBehaviour
     public GameObject qbutton;
     public GameObject qbutton_select;
     public GameObject confirm;
+    public GameObject TtP_confirm;
     Text qtext;
     string title;
     string soal_UtP_1;
@@ -231,9 +232,32 @@ public class PSolving : MonoBehaviour
         qpanel.SetActive(true);
         confirm.SetActive(true);
     }
-    public void OnTtPButton()
+    public void OnUtPButton()
     { 
-        //check progress
+       if (!TtP_confirm.activeSelf)
+        {
+            TtP_confirm.SetActive(true);
+            GameObject temp = TtP_confirm.transform.GetChild(3).gameObject;
+            GameObject temp2 = TtP_confirm.transform.GetChild(4).gameObject;
+
+            temp.GetComponent<Button>().onClick.AddListener(()=>
+                {
+                    TtP_com.SetActive(true);
+                    TtP_confirm.SetActive(false);
+                    Review_Lok.SetActive(false);
+                });
+
+            temp2.GetComponent<Button>().onClick.AddListener(() =>
+            {
+                TtP_confirm.SetActive(false);
+            });
+        }
+        else
+        {
+            TtP_confirm.SetActive(false);
+        }
+
+
         
     }
    
