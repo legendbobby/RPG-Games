@@ -19,7 +19,7 @@ public class PSolving : MonoBehaviour
     public GameObject TtP_com;
     public GameObject Dik_Lok;
     public GameObject DaP_Lok;
-    public GameObject UtP_Lok;
+    public GameObject TtP_Lok;
     public GameObject Review_Lok;
     public GameObject Review;
     public GameObject Review_com;
@@ -31,6 +31,7 @@ public class PSolving : MonoBehaviour
     public GameObject qbutton_select;
     public GameObject confirm;
     public GameObject TtP_confirm;
+    public GameObject Review_confirm;
     Text qtext;
     string title;
     string soal_UtP_1;
@@ -44,6 +45,7 @@ public class PSolving : MonoBehaviour
     bool confirm2;
     GameObject temp2;
     Comp_Sys comp_Sys;
+    bool reviewstate = false;
     // Update is called once per frame
     private void Start()
     {
@@ -169,7 +171,7 @@ public class PSolving : MonoBehaviour
                     confirm.SetActive(false);
                     DaP_com.SetActive(true);
                     PB_panel.SetActive(true);
-                    UtP_Lok.SetActive(false);
+                    TtP_Lok.SetActive(false);
 
                     Debug.Log(pSItems.PSItemState.DaP_state);
 
@@ -184,7 +186,7 @@ public class PSolving : MonoBehaviour
                     confirm.SetActive(false);
                     DaP_com.SetActive(true);
                     PB_panel.SetActive(true);
-                    UtP_Lok.SetActive(false);
+                    TtP_Lok.SetActive(false);
 
                     Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.DaP_jawaban);
                 }
@@ -260,7 +262,62 @@ public class PSolving : MonoBehaviour
 
         
     }
-   
+
+    public void OnReviewButton()
+    {
+        if (!Review_confirm.activeSelf)
+        {
+            Review_confirm.SetActive(true);
+            GameObject temp = Review_confirm.transform.GetChild(3).gameObject;
+            GameObject temp2 = Review_confirm.transform.GetChild(4).gameObject;
+
+            temp.GetComponent<Button>().onClick.AddListener(() =>
+            {
+                if (reviewstate)
+                {
+                    Debug.Log("aaaaaaa");
+                    Review_com.SetActive(true);
+                    Review_confirm.SetActive(false);
+                    
+
+                }
+                else
+                {
+                    Debug.Log("bbbbbb");
+                    reset();
+                    Review_confirm.SetActive(false);
+                    reviewstate = true;
+                }
+            });
+
+            temp2.GetComponent<Button>().onClick.AddListener(() =>
+            {
+                Review_confirm.SetActive(false);
+            });
+        }
+        else
+        {
+            Review_confirm.SetActive(false);
+        }
+
+
+
+    }
+
+    void reset()
+    {
+        UtP_com.SetActive(false);
+        Dit_com.SetActive(false);
+        Dik_com.SetActive(false);
+        DaP_com.SetActive(false);
+        TtP_com.SetActive(false);
+        Dik_Lok.SetActive(true);
+        DaP_Lok.SetActive(true);
+        TtP_Lok.SetActive(true);
+        Review_Lok.SetActive(true);
+         
+    }
+
     void ShowAnswer()
     {
         int tempint;

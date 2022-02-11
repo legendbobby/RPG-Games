@@ -43825,7 +43825,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1073844649}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1600316325}
+        m_TargetAssemblyTypeName: PSolving, Assembly-CSharp
+        m_MethodName: OnReviewButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1073844649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48962,7 +48974,7 @@ MonoBehaviour:
   TtP_com: {fileID: 813649244}
   Dik_Lok: {fileID: 411728083}
   DaP_Lok: {fileID: 154824218}
-  UtP_Lok: {fileID: 615313505}
+  TtP_Lok: {fileID: 615313505}
   Review_Lok: {fileID: 1099865073}
   Review: {fileID: 1073844646}
   Review_com: {fileID: 2121127257}
@@ -48974,6 +48986,7 @@ MonoBehaviour:
   qbutton_select: {fileID: 2013192574}
   confirm: {fileID: 587692991}
   TtP_confirm: {fileID: 690685371}
+  Review_confirm: {fileID: 1640371034}
 --- !u!114 &1600316326
 MonoBehaviour:
   m_ObjectHideFlags: 0
