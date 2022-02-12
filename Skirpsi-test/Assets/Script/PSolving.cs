@@ -271,7 +271,7 @@ public class PSolving : MonoBehaviour
                     Review_Lok.SetActive(false);
                     for (int i = 0; i < Comp_ps.transform.childCount; i++)
                     {
-                        if (i / 2 == 0)
+                        if (i % 2 == 0)
                         {
                             Comp_ps.transform.GetChild(i).gameObject.SetActive(false);
 
