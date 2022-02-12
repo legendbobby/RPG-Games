@@ -32,6 +32,7 @@ public class PSolving : MonoBehaviour
     public GameObject confirm;
     public GameObject TtP_confirm;
     public GameObject Review_confirm;
+    public GameObject Comp_ps;
     Text qtext;
     string title;
     string soal_UtP_1;
@@ -196,9 +197,23 @@ public class PSolving : MonoBehaviour
 
                     Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.DaP_jawaban);
                 }
+
             }
-           
-           
+           for (int i = 0; i < Comp_ps.transform.childCount; i++ )
+            {
+                
+                if (i % 2 == 0)
+                {
+                    Comp_ps.transform.GetChild(i).gameObject.SetActive(true);
+
+                }
+                else
+                {
+                    Comp_ps.transform.GetChild(i).gameObject.SetActive(false);
+                }
+                Debug.Log(i);
+            }
+            
            
         }
         else {
@@ -254,6 +269,19 @@ public class PSolving : MonoBehaviour
                     TtP_com.SetActive(true);
                     TtP_confirm.SetActive(false);
                     Review_Lok.SetActive(false);
+                    for (int i = 0; i < Comp_ps.transform.childCount; i++)
+                    {
+                        if (i / 2 == 0)
+                        {
+                            Comp_ps.transform.GetChild(i).gameObject.SetActive(false);
+
+                        }
+                        else
+                        {
+                            Comp_ps.transform.GetChild(i).gameObject.SetActive(true);
+                        }
+
+                    }
                 });
 
             temp2.GetComponent<Button>().onClick.AddListener(() =>
