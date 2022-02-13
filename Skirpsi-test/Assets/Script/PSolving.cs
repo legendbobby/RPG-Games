@@ -33,6 +33,7 @@ public class PSolving : MonoBehaviour
     public GameObject TtP_confirm;
     public GameObject Review_confirm;
     public GameObject Comp_ps;
+    public GameObject block;
     Text qtext;
     string title;
     string soal_UtP_1;
@@ -62,9 +63,20 @@ public class PSolving : MonoBehaviour
             if (PB_panel.activeSelf == true)
             {
                 PB_panel.SetActive(false);
+                if (pSItems == null && block.activeSelf==true)
+                {
+                    block.SetActive(false);
+                }
+                CharacterContoller2D.enableMovement = true ;
             }
             else
             {
+                CharacterContoller2D.enableMovement = false;
+                if (pSItems == null)
+                {
+                    block.SetActive(true);
+                }
+
                 PB_panel.SetActive(true);
             }
         
@@ -90,6 +102,11 @@ public class PSolving : MonoBehaviour
     public void OnCloseButton()
     {
         PB_panel.SetActive(false);
+        CharacterContoller2D.enableMovement = true;
+        if (pSItems == null && block.activeSelf == true)
+        {
+            block.SetActive(false);
+        }
     }
     public void OnConfirmButton()
     {
@@ -305,7 +322,10 @@ public class PSolving : MonoBehaviour
             Review_confirm.SetActive(true);
             GameObject temp = Review_confirm.transform.GetChild(3).gameObject;
             GameObject temp2 = Review_confirm.transform.GetChild(4).gameObject;
-
+            if (reviewstate)
+            {
+                Review_com.GetComponent<Text>().text = "Kamu sudah selesai mengulas kembali Problem solving. Lanjut untuk melihat nilai?";
+            }
             temp.GetComponent<Button>().onClick.AddListener(() =>
             {
                 if (reviewstate)
@@ -313,7 +333,7 @@ public class PSolving : MonoBehaviour
                     Debug.Log("aaaaaaa");
                     Review_com.SetActive(true);
                     Review_confirm.SetActive(false);
-                    
+                    //lihatin nilai
 
                 }
                 else
