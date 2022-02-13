@@ -34,6 +34,8 @@ public class PSolving : MonoBehaviour
     public GameObject Review_confirm;
     public GameObject Comp_ps;
     public GameObject block;
+    public GameObject block2;
+    public GameObject nilai;
     Text qtext;
     string title;
     string soal_UtP_1;
@@ -324,7 +326,8 @@ public class PSolving : MonoBehaviour
             GameObject temp2 = Review_confirm.transform.GetChild(4).gameObject;
             if (reviewstate)
             {
-                Review_com.GetComponent<Text>().text = "Kamu sudah selesai mengulas kembali Problem solving. Lanjut untuk melihat nilai?";
+                string coba = "Kamu sudah selesai mengulas kembali Problem solving. Lanjut untuk melihat nilai?";
+                Review_com.transform.GetChild(3).GetComponent<Text>().text = coba;
             }
             temp.GetComponent<Button>().onClick.AddListener(() =>
             {
@@ -333,7 +336,34 @@ public class PSolving : MonoBehaviour
                     Debug.Log("aaaaaaa");
                     Review_com.SetActive(true);
                     Review_confirm.SetActive(false);
-                    //lihatin nilai
+                    int totalnilai = 10;
+                    int UtSnilai = 0;
+                    int DaPnilai = 0;
+                    int TtPnilai = 0;
+                    Calculate(totalnilai,UtSnilai,DaPnilai,TtPnilai);
+                    /*nilai.transform.GetChild(6).GetComponent<Text>().text = UtSnilai;
+                       nilai.transform.GetChild(7).GetComponent<Text>().text = DaPnilai;
+                       nilai.transform.GetChild(8).GetComponent<Text>().text = TtPnilai;
+                       nilai.transform.GetChild(9).GetComponent<Text>().text = "10";
+                       nilai.transform.GetChild(10).GetComponent<Text>().text = totalnilai;*/
+                    GameObject temp3 = nilai.transform.GetChild(11).gameObject;
+                    GameObject temp4 = nilai.transform.GetChild(12).gameObject;
+
+                    temp3.GetComponent<Button>().onClick.AddListener(() =>
+                    {
+                        nilai.SetActive(false);
+                        pSItems = null;
+                        //lanjut story
+
+                    });
+                    temp4.GetComponent<Button>().onClick.AddListener(() =>
+                    {
+                        //ambil screenshot
+
+                    });
+
+
+
 
                 }
                 else
@@ -447,5 +477,53 @@ public class PSolving : MonoBehaviour
             currentchoice = 0;
         });
         //buat tombol jadi seolah olah kepilih
+    }
+    void Calculate(int totalnilai,int UtSnilai, int DaPnilai, int TtPnilai)
+    {
+        totalnilai = 0;
+        UtSnilai = 0;
+        DaPnilai = 0;
+        TtPnilai = 0;
+        if (pSItems.PSItemState.Uts_1_state == true)
+        {
+            UtSnilai = UtSnilai + 10;
+
+        }
+        if (pSItems.PSItemState.Uts_2_state == true)
+        {
+            UtSnilai = UtSnilai + 10;
+
+        }
+        if (pSItems.PSItemState.DaP_state == true)
+        {
+            DaPnilai = DaPnilai + 10;
+
+        }
+        if (pSItems.PSItemState.pc1_state == true)
+        {
+            TtPnilai = TtPnilai + 10;
+
+        }
+        if (pSItems.PSItemState.pc2_state == true)
+        {
+            TtPnilai = TtPnilai + 10;
+
+        }
+        if (pSItems.PSItemState.pc3_state == true)
+        {
+            TtPnilai = TtPnilai + 10;
+
+        }
+        if (pSItems.PSItemState.pc4_state == true)
+        {
+            TtPnilai = TtPnilai + 10;
+
+        }
+        totalnilai = UtSnilai + DaPnilai + TtPnilai;
+
+        return;
+
+
+
     }
 }
