@@ -31,7 +31,7 @@ public class Comp_Sys : MonoBehaviour
     void Start()
     {
         PSolving = GameManager.instance.psolving;
-        psItem = GameManager.instance.pSItem;
+        //psItem = Instantiate();
         notif = GameManager.instance.notif;
     }
 
@@ -256,7 +256,7 @@ public class Comp_Sys : MonoBehaviour
 
         }
         
-        }
+    }
 
     void Confirmation(int buttonindex, Vector3 newpos)
     {

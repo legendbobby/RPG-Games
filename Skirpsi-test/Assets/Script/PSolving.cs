@@ -235,8 +235,8 @@ public class PSolving : MonoBehaviour
                 }
                 Debug.Log(i);
             }
-            
-           
+
+            currentchoice = 0;
         }
         else {
             Debug.Log("Pilih jawaban");
@@ -254,6 +254,7 @@ public class PSolving : MonoBehaviour
         ShowAnswer();
         qpanel.SetActive(true);
         confirm.SetActive(true);
+       
     }
     public void OnUtP2Button()
     {
@@ -265,6 +266,7 @@ public class PSolving : MonoBehaviour
         ShowAnswer();
         qpanel.SetActive(true);
         confirm.SetActive(true);
+        
     }
     public void OnDaPButton()
     {
@@ -277,9 +279,14 @@ public class PSolving : MonoBehaviour
         ShowAnswer();
         qpanel.SetActive(true);
         confirm.SetActive(true);
+       
     }
     public void OnUtPButton()
     { 
+       if(!reviewstate)
+        {
+            comp_Sys.psItem = pSItems;
+        }
        if (!TtP_confirm.activeSelf)
         {
             TtP_confirm.SetActive(true);
@@ -356,7 +363,7 @@ public class PSolving : MonoBehaviour
                     {
                         nilai.SetActive(false);
                         block2.SetActive(false);
-                        
+                        reset();
                         Destroy(pSItems);
                         //lanjut story
 
@@ -507,25 +514,25 @@ public class PSolving : MonoBehaviour
         }
         if (pSItems.PSItemState.pc1_state == true)
         {
-            TtPnilai = TtPnilai + 10;
+            TtPnilai = TtPnilai + 15;
 
         }
         if (pSItems.PSItemState.pc2_state == true)
         {
-            TtPnilai = TtPnilai + 10;
+            TtPnilai = TtPnilai + 15;
 
         }
         if (pSItems.PSItemState.pc3_state == true)
         {
-            TtPnilai = TtPnilai + 10;
+            TtPnilai = TtPnilai + 15;
 
         }
         if (pSItems.PSItemState.pc4_state == true)
         {
-            TtPnilai = TtPnilai + 10;
+            TtPnilai = TtPnilai + 15;
 
         }
-        totalnilai = UtSnilai + DaPnilai + TtPnilai;
+        totalnilai = UtSnilai + DaPnilai + TtPnilai + 10;
 
         
 
