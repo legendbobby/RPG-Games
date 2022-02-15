@@ -30,9 +30,9 @@ MonoBehaviour:
   - 11
   - 12
   icon: {fileID: 0}
-  UtP_1_jawaban: 1
-  UtP_2_jawaban: 1
-  DaP_jawaban: 1
+  UtP_1_jawaban: 2
+  UtP_2_jawaban: 3
+  DaP_jawaban: 4
   pc1:
   - 192.168.1.1
   - 192.168.1.2
