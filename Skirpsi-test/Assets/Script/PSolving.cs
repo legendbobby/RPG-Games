@@ -52,11 +52,13 @@ public class PSolving : MonoBehaviour
     bool reviewstate = false;
     Vector3 position;
     int jawaban;
+    ScreenShot screenShot;
     // Update is called once per frame
     private void Start()
     {
         qtext = qpanel.transform.GetChild(0).GetComponent<Text>();
         comp_Sys = GameManager.instance.comp_Sys;
+        screenShot = GameManager.instance.screenShot;
     }
     void Update()
     {
@@ -98,7 +100,8 @@ public class PSolving : MonoBehaviour
     }*/
     public void ParsingFile(PSItem pSItem)
     {
-        pSItems = pSItem;
+        //pSItems = new PSItem();
+        pSItems = Instantiate(pSItem);
         comp_Sys.psItem = pSItem;
     }
     public void OnCloseButton()
@@ -327,7 +330,7 @@ public class PSolving : MonoBehaviour
             if (reviewstate)
             {
                 string coba = "Kamu sudah selesai mengulas kembali Problem solving. Lanjut untuk melihat nilai?";
-                Review_com.transform.GetChild(3).GetComponent<Text>().text = coba;
+                Review_confirm.transform.GetChild(2).GetComponent<Text>().text = coba;
             }
             temp.GetComponent<Button>().onClick.AddListener(() =>
             {
@@ -340,29 +343,32 @@ public class PSolving : MonoBehaviour
                     int UtSnilai = 0;
                     int DaPnilai = 0;
                     int TtPnilai = 0;
-                    Calculate(totalnilai,UtSnilai,DaPnilai,TtPnilai);
-                    /*nilai.transform.GetChild(6).GetComponent<Text>().text = UtSnilai;
-                       nilai.transform.GetChild(7).GetComponent<Text>().text = DaPnilai;
-                       nilai.transform.GetChild(8).GetComponent<Text>().text = TtPnilai;
-                       nilai.transform.GetChild(9).GetComponent<Text>().text = "10";
-                       nilai.transform.GetChild(10).GetComponent<Text>().text = totalnilai;*/
+                    Calculate(out totalnilai,out UtSnilai,out DaPnilai,out TtPnilai);
+                    nilai.transform.GetChild(6).GetComponent<Text>().text = UtSnilai.ToString();
+                    nilai.transform.GetChild(7).GetComponent<Text>().text = DaPnilai.ToString();
+                    nilai.transform.GetChild(8).GetComponent<Text>().text = TtPnilai.ToString();
+                    nilai.transform.GetChild(9).GetComponent<Text>().text = "10";
+                    nilai.transform.GetChild(10).GetComponent<Text>().text = totalnilai.ToString();
                     GameObject temp3 = nilai.transform.GetChild(11).gameObject;
                     GameObject temp4 = nilai.transform.GetChild(12).gameObject;
 
                     temp3.GetComponent<Button>().onClick.AddListener(() =>
                     {
                         nilai.SetActive(false);
-                        pSItems = null;
+                        block2.SetActive(false);
+                        
+                        Destroy(pSItems);
                         //lanjut story
 
                     });
                     temp4.GetComponent<Button>().onClick.AddListener(() =>
                     {
-                        //ambil screenshot
+                        ScreenCapture.CaptureScreenshot("tes.png");
 
                     });
-
-
+                    nilai.SetActive(true);
+                    block2.SetActive(true);
+                    block.SetActive(true);
 
 
                 }
@@ -478,9 +484,9 @@ public class PSolving : MonoBehaviour
         });
         //buat tombol jadi seolah olah kepilih
     }
-    void Calculate(int totalnilai,int UtSnilai, int DaPnilai, int TtPnilai)
+    void Calculate(out int totalnilai,out int UtSnilai,out int DaPnilai,out int TtPnilai)
     {
-        totalnilai = 0;
+        totalnilai = 10;
         UtSnilai = 0;
         DaPnilai = 0;
         TtPnilai = 0;
@@ -521,7 +527,7 @@ public class PSolving : MonoBehaviour
         }
         totalnilai = UtSnilai + DaPnilai + TtPnilai;
 
-        return;
+        
 
 
 

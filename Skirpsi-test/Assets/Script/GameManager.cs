@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public Notif_sys notif;
     public Comp_Sys comp_Sys;
     public PSItem pSItem;
+    public ScreenShot screenShot;
    
 
 
