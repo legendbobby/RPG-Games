@@ -48952,6 +48952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notifimg: {fileID: 109358777}
+  notifcanvas: {fileID: 1398865427}
 --- !u!114 &1398865429
 MonoBehaviour:
   m_ObjectHideFlags: 0

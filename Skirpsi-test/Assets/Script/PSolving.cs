@@ -53,12 +53,14 @@ public class PSolving : MonoBehaviour
     Vector3 position;
     int jawaban;
     ScreenShot screenShot;
+    Notif_sys notif_Sys;
     // Update is called once per frame
     private void Start()
     {
         qtext = qpanel.transform.GetChild(0).GetComponent<Text>();
         comp_Sys = GameManager.instance.comp_Sys;
         screenShot = GameManager.instance.screenShot;
+        notif_Sys = GameManager.instance.notif;
     }
     void Update()
     {
@@ -219,6 +221,7 @@ public class PSolving : MonoBehaviour
 
                     Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.DaP_jawaban);
                 }
+                notif_Sys.Show("Tahap Devise a Plan selesai, Selesaikan Permasalahan sesuai Petunjukk");
 
             }
            for (int i = 0; i < Comp_ps.transform.childCount; i++ )
