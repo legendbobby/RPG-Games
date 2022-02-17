@@ -49,7 +49,7 @@ public class LootContainerInteract : Interactable
         }
         else if (PSItem != null)
         {
-            Debug.Log("coba2");
+            
             notif.Show("Problem Solving " + PSItem.title + " ditambakan");
             psolving.ParsingFile(PSItem);
         }
