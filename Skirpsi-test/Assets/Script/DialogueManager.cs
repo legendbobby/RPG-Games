@@ -27,7 +27,8 @@ public class DialogueManager : MonoBehaviour
     public bool ngomong = false;
     public int ip3=0;
     public int ip1 = 0;
-
+    
+    
     // Start is called before the first frame update
     public void Start()
     {
