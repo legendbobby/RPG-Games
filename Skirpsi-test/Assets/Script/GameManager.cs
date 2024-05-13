@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    
 
     private void Awake()
     {
@@ -22,7 +24,8 @@ public class GameManager : MonoBehaviour
     public Comp_Sys comp_Sys;
     public PSItem pSItem;
     public ScreenShot screenShot;
-   
-
-
+    public Tracker tracker;
+    public QuestTracker questTracker;
+    public LootContainerInteract lootContainerInteract;
+    
 }

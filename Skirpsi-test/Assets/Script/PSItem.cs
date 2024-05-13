@@ -10,6 +10,7 @@ public class PSItem : ScriptableObject
 {
     [SerializeField] public string title = "New Item";
     [SerializeField] public int id;
+    [SerializeField] public string soal;
     [SerializeField] public string soal_UtP_1;
     [SerializeField] public string soal_UtP_2;
     [SerializeField] public string soal_DaP;

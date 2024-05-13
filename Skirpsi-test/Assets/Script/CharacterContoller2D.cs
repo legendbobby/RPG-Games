@@ -12,6 +12,7 @@ public class CharacterContoller2D : MonoBehaviour
     Animator animator;
     public bool moving;
     public static bool enableMovement= true;
+    DialogueManager dialogueManager;
 
     
 

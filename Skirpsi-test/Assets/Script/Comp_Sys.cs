@@ -205,19 +205,19 @@ public class Comp_Sys : MonoBehaviour
                 {
                     if (i == 3)
                     {
-                        pos.x += 250;
+                        pos.x += 960f;
                         pos.y = tempy;
                     }
                     else
                     {
-                        pos.y -= 30;
+                        pos.y -= 100f;
                     }
 
 
                 }
                 else
                 {
-                    pos.y -= 30;
+                    pos.y -= 100f;
                 }
 
                 //GameObject temp = Instantiate(customButton, optionPanel.transform);

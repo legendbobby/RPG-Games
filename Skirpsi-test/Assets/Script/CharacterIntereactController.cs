@@ -6,8 +6,8 @@ public class CharacterIntereactController : MonoBehaviour
 {
     CharacterContoller2D characterController;
     Rigidbody2D rgbd2d;
-    [SerializeField] float offsetDistance = 1f;
-    [SerializeField] float sizeOfInteractableArea = 1.2f;
+    [SerializeField] float offsetDistance = 0.5f;
+    [SerializeField] float sizeOfInteractableArea = 3f;
     Character character;
     [SerializeReference] HighlightController highlightController;
     public static bool interact = false;
@@ -28,9 +28,10 @@ public class CharacterIntereactController : MonoBehaviour
     private void Update()
     {
         Check();
-        if (Input.GetMouseButtonDown(1) && dialogueManager.ngomong==false)
+        if (Input.GetMouseButtonDown(1) && !dialogueManager.ngomong)
         {
             Interact();
+
         }
         
         /*if (!interact)

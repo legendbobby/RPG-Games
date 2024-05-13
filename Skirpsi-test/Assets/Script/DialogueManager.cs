@@ -27,6 +27,8 @@ public class DialogueManager : MonoBehaviour
     public bool ngomong = false;
     public int ip3=0;
     public int ip1 = 0;
+    public int statemisi = 0;
+    public int sm = 0;
     
     
     // Start is called before the first frame update
@@ -37,8 +39,9 @@ public class DialogueManager : MonoBehaviour
         tags = new List<string>();
         choiceSelected = null;
         storyscript = GameManager.instance.storyscript;
+        ngomong = false;
+       
 
-        
     }
 
     private void Update()
@@ -58,11 +61,14 @@ public class DialogueManager : MonoBehaviour
         {
             ip3 = (int)story.variablesState["ip3"];
             ip1 = (int)story.variablesState["IP1"];
-            
-            
+            statemisi = (int)story.variablesState["StateMisi"];
+            sm = (int)story.variablesState["SM"];
+
+
         }
-      
-       
+
+
+
 
     }
 
@@ -89,7 +95,7 @@ public class DialogueManager : MonoBehaviour
         
         if (story.canContinue)
         {
-            Debug.Log("Start ke-1");
+           
             if (!textBox.activeSelf)
             {
                 textBox.SetActive(true);
@@ -115,7 +121,7 @@ public class DialogueManager : MonoBehaviour
             }
             if (!story.canContinue)
             {
-                Debug.Log("Start ke-2");
+                
                 if (Input.GetKeyDown(KeyCode.Space) && (disableInput == false))
                 {
                     if (story.currentText != "")
@@ -132,7 +138,8 @@ public class DialogueManager : MonoBehaviour
 
         else if (!story.canContinue && !finish)
         {
-            Debug.Log("Start ke-3");
+            
+            //storyscript.CheckStory();
             story.ChoosePathString(storyscript.state);
             Debug.Log(storyscript.state);
             StartDialogue();
@@ -225,7 +232,7 @@ public class DialogueManager : MonoBehaviour
         Vector3 pos = customButton.transform.position;
         isTalking = true;
         float tempy = pos.y;
-        //Destroy(optionPanel);
+        optionPanel.SetActive(false);
         for (int i = 0; i < _choices.Count; i++)
         {
             GameObject temp = Instantiate(customButton, new Vector3(pos.x, pos.y, pos.z), Quaternion.identity, optionPanel.transform);
@@ -233,19 +240,21 @@ public class DialogueManager : MonoBehaviour
             {
                 if (i == 3)
                 {
-                    pos.x += 400;
+                    pos.x += 960f;
                     pos.y = tempy;
                 }
                 else
                 {
-                    pos.y -= 45;
+                    pos.y -= 130f;
                 }
                
 
             }
             else 
             {
-                pos.y -= 45;
+                
+                pos.y -= 130f;
+                 
             }
            
             //GameObject temp = Instantiate(customButton, optionPanel.transform);

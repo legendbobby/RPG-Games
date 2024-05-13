@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,6 +37,8 @@ public class PSolving : MonoBehaviour
     public GameObject block;
     public GameObject block2;
     public GameObject nilai;
+    public GameObject soal;
+    Text soaltext;
     Text qtext;
     string title;
     string soal_UtP_1;
@@ -50,17 +53,25 @@ public class PSolving : MonoBehaviour
     GameObject temp2;
     Comp_Sys comp_Sys;
     bool reviewstate = false;
+    bool pctracker = false;
     Vector3 position;
     int jawaban;
     ScreenShot screenShot;
     Notif_sys notif_Sys;
+    Tracker tracker;
+    Tracker.QuestTracker questTracker;
+    StoryScript storyScript;
     // Update is called once per frame
     private void Start()
     {
         qtext = qpanel.transform.GetChild(0).GetComponent<Text>();
+        soaltext = soal.transform.GetChild(0).GetComponent<Text>();
         comp_Sys = GameManager.instance.comp_Sys;
         screenShot = GameManager.instance.screenShot;
         notif_Sys = GameManager.instance.notif;
+        tracker = GameManager.instance.tracker;
+        storyScript = GameManager.instance.storyscript;
+       
     }
     void Update()
     {
@@ -69,6 +80,7 @@ public class PSolving : MonoBehaviour
             if (PB_panel.activeSelf == true)
             {
                 PB_panel.SetActive(false);
+                soal.SetActive(false);
                 if (pSItems == null && block.activeSelf==true)
                 {
                     block.SetActive(false);
@@ -84,6 +96,7 @@ public class PSolving : MonoBehaviour
                 }
 
                 PB_panel.SetActive(true);
+                soal.SetActive(true);
             }
         
         }
@@ -105,14 +118,20 @@ public class PSolving : MonoBehaviour
         //pSItems = new PSItem();
         pSItems = Instantiate(pSItem);
         comp_Sys.psItem = pSItem;
+        reviewstate = false;
+        soaltext.text = pSItems.soal;
+        
     }
     public void OnCloseButton()
     {
         PB_panel.SetActive(false);
+        soal.SetActive(false);
+        block.SetActive(false);
         CharacterContoller2D.enableMovement = true;
-        if (pSItems == null && block.activeSelf == true)
+        if (pSItems != null && block.activeSelf == true)
         {
             block.SetActive(false);
+            Debug.Log("ADA SOAL PB");
         }
     }
     public void OnConfirmButton()
@@ -136,9 +155,7 @@ public class PSolving : MonoBehaviour
                     Dit_com.SetActive(true);
                     PB_panel.SetActive(true);
                     Dik_Lok.SetActive(false);
-
-                    Debug.Log(pSItems.PSItemState.Uts_1_state);
-
+                    soal.SetActive(true);
 
                 }
 
@@ -151,8 +168,9 @@ public class PSolving : MonoBehaviour
                     Dit_com.SetActive(true);
                     PB_panel.SetActive(true);
                     Dik_Lok.SetActive(false);
+                    soal.SetActive(true);
 
-                    Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.UtP_1_jawaban);
+
                 }
                 
             }
@@ -169,10 +187,8 @@ public class PSolving : MonoBehaviour
                     Dik_com.SetActive(true);
                     UtP_com.SetActive(true);
                     PB_panel.SetActive(true);
+                    soal.SetActive(true);
                     DaP_Lok.SetActive(false);
-
-                    Debug.Log(pSItems.PSItemState.Uts_2_state);
-
 
                 }
 
@@ -187,8 +203,9 @@ public class PSolving : MonoBehaviour
                     PB_panel.SetActive(true);
                     DaP_Lok.SetActive(false);
 
-                    Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.UtP_2_jawaban);
+                    
                 }
+                notif_Sys.Show("Tahap Understanding the Problem selesai");
             }
             else if (qtext.text == pSItems.soal_DaP)
             {
@@ -203,8 +220,8 @@ public class PSolving : MonoBehaviour
                     DaP_com.SetActive(true);
                     PB_panel.SetActive(true);
                     TtP_Lok.SetActive(false);
+                    soal.SetActive(true);
 
-                    Debug.Log(pSItems.PSItemState.DaP_state);
 
 
                 }
@@ -218,11 +235,10 @@ public class PSolving : MonoBehaviour
                     DaP_com.SetActive(true);
                     PB_panel.SetActive(true);
                     TtP_Lok.SetActive(false);
+                    soal.SetActive(true);
 
-                    Debug.Log("jawaban anda =" + currentchoice + "seharusnya" + pSItems.DaP_jawaban);
                 }
-                notif_Sys.Show("Tahap Devise a Plan selesai, Selesaikan Permasalahan sesuai Petunjukk");
-
+                notif_Sys.Show("Tahap Devise a Plan selesai. Akses Komputer telah dibuka. Selesaikan Permasalahan sesuai Petunjuk");
             }
            for (int i = 0; i < Comp_ps.transform.childCount; i++ )
             {
@@ -230,19 +246,28 @@ public class PSolving : MonoBehaviour
                 if (i % 2 == 0)
                 {
                     Comp_ps.transform.GetChild(i).gameObject.SetActive(true);
-
+                   
                 }
                 else
                 {
                     Comp_ps.transform.GetChild(i).gameObject.SetActive(false);
                 }
-                Debug.Log(i);
-            }
+                
 
+            }
+            Transform PC1 = Comp_ps.transform.GetChild(0);
+            questTracker = tracker.CreateTracker(PC1);
+            Transform PC2 = Comp_ps.transform.GetChild(2);
+            questTracker = tracker.CreateTracker(PC2);
+            Transform PC3 = Comp_ps.transform.GetChild(4);
+            questTracker = tracker.CreateTracker(PC3);
+            Transform PC4 = Comp_ps.transform.GetChild(6);
+            questTracker = tracker.CreateTracker(PC4);
             currentchoice = 0;
+            
         }
         else {
-            Debug.Log("Pilih jawaban");
+            notif_Sys.Show("Silahkan Pilih Jawaban");
         }
 
        
@@ -257,11 +282,13 @@ public class PSolving : MonoBehaviour
         ShowAnswer();
         qpanel.SetActive(true);
         confirm.SetActive(true);
-       
+        soal.SetActive(false);
+
     }
     public void OnUtP2Button()
     {
         PB_panel.SetActive(false);
+        soal.SetActive(false);
         qtext.text = pSItems.soal_UtP_2;
         choice = pSItems.choice_UtP_2;
         position = pSItems.PSItemState.UtS_2_pos;
@@ -274,6 +301,7 @@ public class PSolving : MonoBehaviour
     public void OnDaPButton()
     {
         PB_panel.SetActive(false);
+        soal.SetActive(false);
         qtext.text = pSItems.soal_DaP;
         choice = pSItems.choice_DaP;
         position = pSItems.PSItemState.DaP_pos;
@@ -334,6 +362,7 @@ public class PSolving : MonoBehaviour
     {
         if (!Review_confirm.activeSelf)
         {
+            Debug.Log("review state= "+reviewstate);
             Review_confirm.SetActive(true);
             GameObject temp = Review_confirm.transform.GetChild(3).gameObject;
             GameObject temp2 = Review_confirm.transform.GetChild(4).gameObject;
@@ -342,10 +371,20 @@ public class PSolving : MonoBehaviour
                 string coba = "Kamu sudah selesai mengulas kembali Problem solving. Lanjut untuk melihat nilai?";
                 Review_confirm.transform.GetChild(2).GetComponent<Text>().text = coba;
             }
+            else
+            {
+                string coba = "Kamu akan mengulas kembali jawaban, dari Tahap 1 - 3. Lanjut untuk mengulas?";
+                Review_confirm.transform.GetChild(2).GetComponent<Text>().text = coba;
+            }
             temp.GetComponent<Button>().onClick.AddListener(() =>
             {
                 if (reviewstate)
                 {
+                    storyScript.misi = 2;
+                    tracker.DestroyTracker(questTracker);
+                    tracker.DestroyTracker(questTracker);
+                    tracker.DestroyTracker(questTracker);
+                    tracker.DestroyTracker(questTracker);
                     Debug.Log("aaaaaaa");
                     Review_com.SetActive(true);
                     Review_confirm.SetActive(false);
@@ -366,14 +405,19 @@ public class PSolving : MonoBehaviour
                     {
                         nilai.SetActive(false);
                         block2.SetActive(false);
-                        reset();
-                        Destroy(pSItems);
+                        Review_com.SetActive(false);
+                        Reset();
+                       
+                        reviewstate = false;
+                        temp.GetComponent<Button>().onClick.RemoveAllListeners();
+                        Debug.Log("review state sekarang= " + reviewstate);
+                        
                         //lanjut story
 
                     });
                     temp4.GetComponent<Button>().onClick.AddListener(() =>
                     {
-                        ScreenCapture.CaptureScreenshot("tes.png");
+                        ScreenCapture.CaptureScreenshot("D:/tes.png");
 
                     });
                     nilai.SetActive(true);
@@ -384,8 +428,8 @@ public class PSolving : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("bbbbbb");
-                    reset();
+                    
+                    Reset();
                     Review_confirm.SetActive(false);
                     reviewstate = true;
                 }
@@ -405,7 +449,7 @@ public class PSolving : MonoBehaviour
 
     }
 
-    void reset()
+    void Reset()
     {
         UtP_com.SetActive(false);
         Dit_com.SetActive(false);
@@ -431,19 +475,19 @@ public class PSolving : MonoBehaviour
             {
                 if (i == 3)
                 {
-                    pos.x += 450;
+                    pos.x += 960f;
                     pos.y = tempy;
                 }
                 else
                 {
-                    pos.y -= 60;
+                    pos.y -= 130f;
                 }
 
 
             }
             else
             {
-                pos.y -= 60;
+                pos.y -= 130f;
             }
 
             //GameObject temp = Instantiate(customButton, optionPanel.transform);
@@ -459,13 +503,13 @@ public class PSolving : MonoBehaviour
                 if(currentchoice==0)
                 {
                     //qbutton.SetActive(false);
-                    Debug.Log("Cobaaaaaa");
+                    
                     Confirmation(temp.GetComponent<Selectable>().indexPS, temp.transform.position);
                 }
                 else
                 {
                     Destroy(temp2.gameObject);
-                    Debug.Log("Cobaaaaa2");
+                   
                     Confirmation(temp.GetComponent<Selectable>().indexPS, temp.transform.position);
                 }
                 
@@ -482,6 +526,10 @@ public class PSolving : MonoBehaviour
     }
     void Confirmation(int buttonindex, Vector3 newpos)
     {
+        if (buttonindex < 0)
+        {
+            buttonindex = 0;
+        }
         Debug.Log(buttonindex);
         temp2 = Instantiate(qbutton_select, new Vector3(newpos.x, newpos.y, newpos.z), Quaternion.identity, qoption.transform);
         temp2.transform.GetChild(0).GetComponent<Text>().text = choice[buttonindex];

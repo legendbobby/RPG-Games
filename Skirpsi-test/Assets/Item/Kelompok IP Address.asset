@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4894f892e8adcab45a35cb653a6e644b, type: 3}
+  m_Name: Kelompok IP Address
+  m_EditorClassIdentifier: 
+  name: Kelompok IP Address
+  id: 0
+  img:
+  - {fileID: 21300000, guid: bab4e39e3e7c8604dae27064ccd56f5e, type: 3}
+  - {fileID: 21300000, guid: 585ced1dc0131e040a16631318919e5e, type: 3}
+  - {fileID: 21300000, guid: 96338c65c2ed9524ebf150d94fd8a2b4, type: 3}
+  - {fileID: 21300000, guid: 546d065d23d09074e99318835602e577, type: 3}
+  - {fileID: 21300000, guid: 347bad09dcea9484b9f3955e60231817, type: 3}
+  icon: {fileID: 21300000, guid: 53da8cb11aa07334e893a78df95f776b, type: 3}

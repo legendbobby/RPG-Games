@@ -5,6 +5,12 @@ INCLUDE IP1.ink
 INCLUDE Misi1.ink
 INCLUDE IP2.ink
 INCLUDE IP3.ink
+INCLUDE SM1.ink
+INCLUDE SM2.ink
+INCLUDE Tamat.ink
+
+
+
 
 VAR VAwal = 0
 VAR VPB1 =0
@@ -19,6 +25,7 @@ VAR id=0
 VAR SM=0
 VAR PR=0
 VAR ip3=0
+VAR prefix1=0
 
 ->Awal
 

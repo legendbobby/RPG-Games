@@ -9,13 +9,19 @@ public class LootContainerInteract : Interactable
     Inventory inventory;
     PSolving psolving;
     Notif_sys notif;
-
+    Tracker tracker;
+    Tracker.QuestTracker questTracker;
+    public bool MS1 = false;
     public PSItem PSItem;
+    public StoryScript storyScript;
     void Start()
     {
         inventory = GameManager.instance.inventory;
         psolving = GameManager.instance.psolving;
         notif = GameManager.instance.notif;
+        tracker = GameManager.instance.tracker;
+        storyScript = GameManager.instance.storyscript;
+
     }
     
     public override void Interact(Character character)
@@ -50,8 +56,11 @@ public class LootContainerInteract : Interactable
         else if (PSItem != null)
         {
             
-            notif.Show("Problem Solving " + PSItem.title + " ditambakan");
+            notif.Show("Problem Solving " + PSItem.title + " ditambakan. Tekan P untuk membuka menu Problem Solving");
             psolving.ParsingFile(PSItem);
+            storyScript.MS1 = true;
+            
+            
         }
         
     }

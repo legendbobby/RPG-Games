@@ -16,4 +16,4 @@ Selain dengan mencari Item atau gambar, kamu juga bisa cari Informasi lainnya de
 
 ===MISI_1_C
 ~StateMisi=2
-Wah, kamu berhasil menyelesaikan masalah Pengelompokkan IPv4. Sebenarnya Penglompokkan IPv4 sudah jarang digunakan tapi tidak salah juga mempelajari hal itu. ->ID
+Wah, kamu berhasil menyelesaikan masalah Pengelompok-kan IPv4. Sebenarnya Penglompok-kan IPv4 sudah jarang digunakan tapi tidak salah juga mempelajari hal itu. ->ID
