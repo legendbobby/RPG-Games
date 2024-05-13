@@ -240,12 +240,12 @@ public class DialogueManager : MonoBehaviour
             {
                 if (i == 3)
                 {
-                    pos.x += 960f;
+                    pos.x += 630f;
                     pos.y = tempy;
                 }
                 else
                 {
-                    pos.y -= 130f;
+                    pos.y -= 100f;
                 }
                
 
@@ -253,7 +253,7 @@ public class DialogueManager : MonoBehaviour
             else 
             {
                 
-                pos.y -= 130f;
+                pos.y -= 100f;
                  
             }
            

@@ -205,7 +205,7 @@ public class Comp_Sys : MonoBehaviour
                 {
                     if (i == 3)
                     {
-                        pos.x += 960f;
+                        pos.x += 500f;
                         pos.y = tempy;
                     }
                     else

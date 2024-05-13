@@ -52,7 +52,7 @@ public class PSolving : MonoBehaviour
     bool confirm2;
     GameObject temp2;
     Comp_Sys comp_Sys;
-    bool reviewstate = false;
+    bool reviewstate = true;
     bool pctracker = false;
     Vector3 position;
     int jawaban;
@@ -61,6 +61,8 @@ public class PSolving : MonoBehaviour
     Tracker tracker;
     Tracker.QuestTracker questTracker;
     StoryScript storyScript;
+    DialogueManager dialogueManager;
+    CharacterContoller2D characterContoller2;
     // Update is called once per frame
     private void Start()
     {
@@ -71,6 +73,9 @@ public class PSolving : MonoBehaviour
         notif_Sys = GameManager.instance.notif;
         tracker = GameManager.instance.tracker;
         storyScript = GameManager.instance.storyscript;
+        dialogueManager = GameManager.instance.dialogueManager;
+        characterContoller2 = GameManager.instance.characterContoller2D;
+        
        
     }
     void Update()
@@ -81,22 +86,29 @@ public class PSolving : MonoBehaviour
             {
                 PB_panel.SetActive(false);
                 soal.SetActive(false);
-                if (pSItems == null && block.activeSelf==true)
+                if (reviewstate && block.activeSelf==true)
                 {
                     block.SetActive(false);
                 }
-                CharacterContoller2D.enableMovement = true ;
+                
             }
             else
             {
-                CharacterContoller2D.enableMovement = false;
-                if (pSItems == null)
+                if (dialogueManager.ngomong ==false && !Input.GetButton("Horizontal") && !Input.GetButton("Vertical"))
                 {
-                    block.SetActive(true);
-                }
+                    CharacterContoller2D.enableMovement = false;
+                    if (reviewstate)
+                    {
+                        block.SetActive(true);
+                    }
 
-                PB_panel.SetActive(true);
-                soal.SetActive(true);
+                    PB_panel.SetActive(true);
+                    soal.SetActive(true);
+                    
+
+                }
+               
+
             }
         
         }
@@ -381,11 +393,6 @@ public class PSolving : MonoBehaviour
                 if (reviewstate)
                 {
                     storyScript.misi = 2;
-                    tracker.DestroyTracker(questTracker);
-                    tracker.DestroyTracker(questTracker);
-                    tracker.DestroyTracker(questTracker);
-                    tracker.DestroyTracker(questTracker);
-                    Debug.Log("aaaaaaa");
                     Review_com.SetActive(true);
                     Review_confirm.SetActive(false);
                     int totalnilai = 10;

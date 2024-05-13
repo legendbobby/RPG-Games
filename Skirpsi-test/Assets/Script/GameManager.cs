@@ -27,5 +27,6 @@ public class GameManager : MonoBehaviour
     public Tracker tracker;
     public QuestTracker questTracker;
     public LootContainerInteract lootContainerInteract;
+    public CharacterContoller2D characterContoller2D;
     
 }

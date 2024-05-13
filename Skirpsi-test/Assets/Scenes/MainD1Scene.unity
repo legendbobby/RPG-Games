@@ -31094,6 +31094,7 @@ MonoBehaviour:
   speed: 6
   lastMotionVector: {x: 0, y: 0}
   moving: 0
+  lagijalan: {x: 0, y: 0}
 --- !u!50 &287467492
 Rigidbody2D:
   serializedVersion: 4
@@ -38945,7 +38946,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 11
   m_TargetDisplay: 0
 --- !u!1 &745651334
 GameObject:
@@ -46094,7 +46095,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1225561444
 RectTransform:
@@ -50555,6 +50556,7 @@ MonoBehaviour:
   tracker: {fileID: 519420035}
   questTracker: {fileID: 0}
   lootContainerInteract: {fileID: 0}
+  characterContoller2D: {fileID: 0}
 --- !u!114 &1519304028
 MonoBehaviour:
   m_ObjectHideFlags: 0
