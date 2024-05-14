@@ -25,4 +25,4 @@ Apakah dapat dimengerti?
 Sekarang Coba Selesaikan Permasalahan Subnetting menggunakan metode Polya. Seperti sebelumnya.
 Informasi Problem Solving bisa cari di Perpustakaan.
 ~SM=5
--> DONE
+-> COBA_1

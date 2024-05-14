@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject textBox;
     public GameObject customButton;
     public GameObject optionPanel;
+    public GameObject space;
     public bool isTalking = false;
     public bool disableInput = false;
     static Story story;
@@ -141,7 +142,7 @@ public class DialogueManager : MonoBehaviour
             
             //storyscript.CheckStory();
             story.ChoosePathString(storyscript.state);
-            Debug.Log(storyscript.state);
+            
             StartDialogue();
             /*if (!textBox.activeSelf)
             {
@@ -191,6 +192,7 @@ public class DialogueManager : MonoBehaviour
         isTalking = false;
         startdialogue = false;
         ngomong = false;
+        space.SetActive(false);
 
     }
 
@@ -212,6 +214,7 @@ public class DialogueManager : MonoBehaviour
     // Type out the sentence letter by letter and make character idle if they were talking
     IEnumerator TypeSentence(string sentence)
     {
+        space.SetActive(false);
         message.text = "";
         disableInput = true;
         foreach (char letter in sentence.ToCharArray())
@@ -220,6 +223,11 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
         yield return new WaitForSeconds(0.5f);
+        if (!optionPanel.activeSelf)
+        {
+            space.SetActive(true);
+        }
+        
         disableInput = false;
         yield return null;
     }

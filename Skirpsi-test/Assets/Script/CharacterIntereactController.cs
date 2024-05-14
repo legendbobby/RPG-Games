@@ -28,7 +28,7 @@ public class CharacterIntereactController : MonoBehaviour
     private void Update()
     {
         Check();
-        if (Input.GetMouseButtonDown(1) && !dialogueManager.ngomong)
+        if (Input.GetMouseButtonDown(1) || Input.GetButtonDown("Interact") && !dialogueManager.ngomong)
         {
             Interact();
 

@@ -6,6 +6,7 @@ public class PSItemState
 {
     public PSItemState()
     {
+        
         Uts_1_state = false;
         Uts_1_jawaban = 0;
         Uts_2_state = false;
@@ -30,7 +31,7 @@ public class PSItemState
 
 
     }
-
+   
     public bool Uts_1_state { get; set; } = false;
     public int Uts_1_jawaban { get; set; } = 0;
     public Vector3 UtS_1_pos { get; set; } = default;
@@ -42,7 +43,7 @@ public class PSItemState
     public Vector3 DaP_pos { get; set; } = default;
     public bool TP_state { get; set; } = false;
     public int TP_pc1 { get; set; } = 0;
-    public Vector3 TP_pc1_pos { get; set; } =default;
+    public Vector3 TP_pc1_pos { get; set; } = default;
     public int TP_pc2 { get; set; } = 0;
     public Vector3 TP_pc2_pos { get; set; } = default;
     public int TP_pc3 { get; set; } = 0;

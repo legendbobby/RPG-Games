@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fd9bec145014a4e84d6a89c3774030, type: 3}
+  m_Name: SubnettingPB
+  m_EditorClassIdentifier: 
+  title: Subnetting
+  id: 2
+  soal: 'Pada Gedung ini ada 4 Ruangan yang dibutuhkan untuk dikonfigurasi, awalnya
+    semua ruangan itu satu jaringan dengan Network Address 192.168.100.0 /24 . Namun
+    Dikarenakan masalah kemanan, Jaringan masing masing ruangan harus dipisah. Namun,
+    Total IP Addressnya harus sama dengan jaringan yang lama. Urutan IP address:
+    Ruangan Gudang, Ruangan Pribadi, Ruangan Istirahat, Ruangan Perpustakaan'
+  soal_UtP_1: Apa akhir yang diinginkan untuk masalah tersebut?
+  soal_UtP_2: 1. ada 4 Ruangan, 2. Ingin 1 Jaringan untuk semua ruangan, 3. Keamanan
+    Kurang aman jika semua rungan, satu jaringan, 4. NA 192.168.100.0 /24. Pernyataan
+    yang Tepat ialah
+  soal_DaP: Apa yang harus dilakukan untuk menyelesaikan masalah tersebut?
+  choice_UtP_1:
+  - Komputer Dijual
+  - Mengurangi beberapa Komputer
+  - Keamanan Ditingkatkan
+  - Membagi Jaringan per Ruangan
+  choice_UtP_2:
+  - 1,2,3
+  - 1,2,4
+  - 1,3,4
+  - Tidak ada yang benar
+  choice_DaP:
+  - Subnetting FLSM
+  - Subnetting VLSM
+  - Supernetting
+  - Konfigurasi IPv4
+  icon: {fileID: 0}
+  UtP_1_jawaban: 4
+  UtP_2_jawaban: 3
+  DaP_jawaban: 1
+  pc1:
+  - NA = 192.168.100.0
+  - NA = 192.168.100.128
+  - NA = 192.168.100.1
+  - NA = 192.168.100.64
+  pc2:
+  - Broadcast = 192.168.100.0
+  - Broadcast = 192.168.100.63
+  - Broadcast = 192.168.100.127
+  - Broadcast = 192.168.100.255
+  pc3:
+  - IP Range = 192.168.100.129 - 192.168.100.190
+  - IP Range = 192.168.100.193 - 192.168.100.254
+  - IP Range = 192.168.100.128 - 192.168.100.192
+  - IP Range = 192.168.100.65 - 192.168.100.127
+  pc4:
+  - NA = 192.168.100.0
+  - NA = 192.168.100.128
+  - NA = 192.168.100.192
+  - NA = 192.168.100.64
+  pc1_jawaban: 1
+  pc2_jawaban: 4
+  pc3_jawaban: 1
+  pc4_jawaban: 4

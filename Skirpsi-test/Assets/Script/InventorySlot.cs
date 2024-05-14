@@ -11,10 +11,7 @@ public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     private bool mouse_over = false;
     void Update()
     {
-        if (mouse_over)
-        {
-            Debug.Log("Mouse Over");
-        }
+        
     }
 
     public void OnPointerEnter(PointerEventData eventData)

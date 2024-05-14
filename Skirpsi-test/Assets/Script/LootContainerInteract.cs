@@ -39,10 +39,12 @@ public class LootContainerInteract : Interactable
                 if (inventory.items[i].id == item.id)
                 {
                     Debug.Log("Barang " + item.name + " sudah diambil");
+                    
                 }
                 else
                 {
                     Debug.Log("Ambil " + item.name);
+                    notif.Show("Mengambil " + item.name);
                     inventory.Add(item);
                 }
             }

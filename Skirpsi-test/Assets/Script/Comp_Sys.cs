@@ -27,12 +27,15 @@ public class Comp_Sys : MonoBehaviour
     public GameObject tampungan;
     public GameObject tampungan2;
     Notif_sys notif;
+    public bool pc_panel=false;
+    public Text title;
     // Start is called before the first frame update
     void Start()
     {
         PSolving = GameManager.instance.psolving;
         //psItem = Instantiate();
         notif = GameManager.instance.notif;
+        psItem = GameManager.instance.pSItem;
     }
 
     // Update is called once per frame
@@ -46,24 +49,28 @@ public class Comp_Sys : MonoBehaviour
         CharacterContoller2D.enableMovement = false;
         if (pc == pc1)
         {
+            title.text = "PC Ruang Gudang";
             currentchoice = psItem.PSItemState.TP_pc1;
             choice = psItem.pc1;
             postemp = psItem.PSItemState.TP_pc1_pos;
         }
         else if (pc == pc2)
         {
+            title.text = "PC Ruang Perpustakaan";
             currentchoice = psItem.PSItemState.TP_pc2;
             choice = psItem.pc2;
             postemp = psItem.PSItemState.TP_pc2_pos;
         }
         else if (pc == pc3)
         {
+            title.text = "PC Ruang Istirahat";
             currentchoice = psItem.PSItemState.TP_pc3;
             choice = psItem.pc3;
             postemp = psItem.PSItemState.TP_pc3_pos;
         }
         else if (pc == pc4)
         {
+            title.text = "PC Ruang Pribadi";
             currentchoice = psItem.PSItemState.TP_pc4;
             choice = psItem.pc4;
             postemp = psItem.PSItemState.TP_pc4_pos;
@@ -71,6 +78,7 @@ public class Comp_Sys : MonoBehaviour
         if (!pcpanel.activeSelf)
         {
             pcpanel.SetActive(true);
+            pc_panel = true;
         }
     }
 
@@ -79,6 +87,7 @@ public class Comp_Sys : MonoBehaviour
         if (!ipmenu.activeSelf)
         {
             pcpanel.SetActive(false);
+            pc_panel = false;
             CharacterContoller2D.enableMovement = true;
 
         }
@@ -106,10 +115,12 @@ public class Comp_Sys : MonoBehaviour
                 if (currentchoice == psItem.pc1_jawaban)
                 {
                     psItem.PSItemState.pc1_state = true;
+                    Debug.Log("PC1: jawaban benar");
                 }
                 else
                 {
                     psItem.PSItemState.pc1_state = false;
+                    Debug.Log("PC1: jawaban salah");
                 }
               
             }
@@ -120,10 +131,12 @@ public class Comp_Sys : MonoBehaviour
                 if (currentchoice == psItem.pc2_jawaban)
                 {
                     psItem.PSItemState.pc2_state = true;
+                    Debug.Log("PC2: jawaban benar");
                 }
                 else
                 {
                     psItem.PSItemState.pc2_state = false;
+                    Debug.Log("PC2: jawaban salah");
                 }
 
             }
@@ -134,10 +147,12 @@ public class Comp_Sys : MonoBehaviour
                 if (currentchoice == psItem.pc3_jawaban)
                 {
                     psItem.PSItemState.pc3_state = true;
+                    Debug.Log("PC3: jawaban benar");
                 }
                 else
                 {
                     psItem.PSItemState.pc3_state = false;
+                    Debug.Log("PC3: jawaban salah");
                 }
 
             }
@@ -148,13 +163,16 @@ public class Comp_Sys : MonoBehaviour
                 if (currentchoice == psItem.pc4_jawaban)
                 {
                     psItem.PSItemState.pc4_state = true;
+                    Debug.Log("PC4: jawaban benar");
                 }
                 else
                 {
                     psItem.PSItemState.pc4_state = false;
+                    Debug.Log("PC4: jawaban salah");
                 }
 
             }
+            
             ipmenu.SetActive(false);
             for (int i = 1; i < tampungan.transform.childCount; i++)
             {
@@ -205,19 +223,19 @@ public class Comp_Sys : MonoBehaviour
                 {
                     if (i == 3)
                     {
-                        pos.x += 500f;
+                        pos.x += 630f;
                         pos.y = tempy;
                     }
                     else
                     {
-                        pos.y -= 100f;
+                        pos.y -= 60f;
                     }
 
 
                 }
                 else
                 {
-                    pos.y -= 100f;
+                    pos.y -= 60f;
                 }
 
                 //GameObject temp = Instantiate(customButton, optionPanel.transform);
@@ -233,13 +251,13 @@ public class Comp_Sys : MonoBehaviour
                     if (currentchoice == 0)
                     {
                         //qbutton.SetActive(false);
-                        Debug.Log("Cobaaaaaa");
+                        
                         Confirmation(temp.GetComponent<Selectable>().indexPS, temp.transform.position);
                     }
                     else
                     {
                         Destroy(temp2.gameObject);
-                        Debug.Log("Cobaaaaa2");
+                        
                         Confirmation(temp.GetComponent<Selectable>().indexPS, temp.transform.position);
                     }
 
@@ -260,7 +278,7 @@ public class Comp_Sys : MonoBehaviour
 
     void Confirmation(int buttonindex, Vector3 newpos)
     {
-        Debug.Log(buttonindex);
+        
         temp2 = Instantiate(pilihip_select, new Vector3(newpos.x, newpos.y, newpos.z), Quaternion.identity, tampungan.transform);
         temp2.transform.GetChild(0).GetComponent<Text>().text = choice[buttonindex];
         currentchoice = buttonindex + 1;

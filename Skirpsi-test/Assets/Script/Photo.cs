@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class Photo : MonoBehaviour
+public class Photo : MonoBehaviour, IDragHandler
 {
     public Text title;
     public Button closeButton;
@@ -17,6 +18,9 @@ public class Photo : MonoBehaviour
     public GameObject back;
     public Button nextButton;
     public GameObject next;
+    public float zoomSpeed = 0.1f;
+    Vector3 OriScale;
+    Vector3 OriPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,31 +52,48 @@ public class Photo : MonoBehaviour
         {
             next.SetActive(true);
         }
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        Vector3 newScale = img.transform.localScale + Vector3.one * scroll * zoomSpeed;
+        img.transform.localScale = newScale;
+        
     }
-    public void ParsingFile(List<Sprite> img3, string judul)
+    public void OnDrag(PointerEventData eventData)
+    {
+        // Move the image based on the mouse delta
+        img.rectTransform.anchoredPosition += eventData.delta;
+    }
+        public void ParsingFile(List<Sprite> img3, string judul)
     {
         img2 = img3;
-        Debug.Log("ada" + judul);
+        
         img.sprite = img2[0];
         title.text = judul;
         count = img2.Count;
         back.SetActive(false);
         next.SetActive(true);
+        OriScale = img.transform.localScale;
+        OriPos = img.rectTransform.anchoredPosition;
     }
     public void OnCloseButton()
     {
+        img.transform.localScale= OriScale;
+        img.rectTransform.anchoredPosition = OriPos;
         PhotoPanel.SetActive(false);
     }
     public void OnNextButton()
     {
         i++;
         img.sprite = img2[i];
+        img.transform.localScale = OriScale;
+        img.rectTransform.anchoredPosition = OriPos;
     }
 
     public void OnBackButton()
     {
         i--;
         img.sprite = img2[i];
+        img.transform.localScale = OriScale;
+        img.rectTransform.anchoredPosition = OriPos;
     }
     public void PhotoActive()
     {

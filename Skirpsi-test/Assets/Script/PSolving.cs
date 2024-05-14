@@ -52,7 +52,7 @@ public class PSolving : MonoBehaviour
     bool confirm2;
     GameObject temp2;
     Comp_Sys comp_Sys;
-    bool reviewstate = true;
+    bool reviewstate;
     bool pctracker = false;
     Vector3 position;
     int jawaban;
@@ -63,6 +63,13 @@ public class PSolving : MonoBehaviour
     StoryScript storyScript;
     DialogueManager dialogueManager;
     CharacterContoller2D characterContoller2;
+    Tracker.QuestTracker Tpc1;
+    Tracker.QuestTracker Tpc2;
+    Tracker.QuestTracker Tpc3;
+    Tracker.QuestTracker Tpc4;
+    private bool mulaibaru=true;
+    public bool  pspanel=false;
+
     // Update is called once per frame
     private void Start()
     {
@@ -71,10 +78,11 @@ public class PSolving : MonoBehaviour
         comp_Sys = GameManager.instance.comp_Sys;
         screenShot = GameManager.instance.screenShot;
         notif_Sys = GameManager.instance.notif;
-        tracker = GameManager.instance.tracker;
+        tracker = GameManager.instance.tracker; 
         storyScript = GameManager.instance.storyscript;
         dialogueManager = GameManager.instance.dialogueManager;
         characterContoller2 = GameManager.instance.characterContoller2D;
+        reviewstate = false;
         
        
     }
@@ -84,27 +92,30 @@ public class PSolving : MonoBehaviour
         {
             if (PB_panel.activeSelf == true)
             {
+                CharacterContoller2D.enableMovement = true;
                 PB_panel.SetActive(false);
                 soal.SetActive(false);
-                if (reviewstate && block.activeSelf==true)
+                if (mulaibaru && block.activeSelf==true)
                 {
                     block.SetActive(false);
+                    block2.SetActive(false);
                 }
-                
+                pspanel = false;
             }
             else
             {
                 if (dialogueManager.ngomong ==false && !Input.GetButton("Horizontal") && !Input.GetButton("Vertical"))
                 {
                     CharacterContoller2D.enableMovement = false;
-                    if (reviewstate)
+                    if (mulaibaru)
                     {
                         block.SetActive(true);
+                        block2.SetActive(true);
                     }
 
                     PB_panel.SetActive(true);
                     soal.SetActive(true);
-                    
+                    pspanel = true;
 
                 }
                
@@ -130,7 +141,7 @@ public class PSolving : MonoBehaviour
         //pSItems = new PSItem();
         pSItems = Instantiate(pSItem);
         comp_Sys.psItem = pSItem;
-        reviewstate = false;
+        mulaibaru = false;
         soaltext.text = pSItems.soal;
         
     }
@@ -138,7 +149,9 @@ public class PSolving : MonoBehaviour
     {
         PB_panel.SetActive(false);
         soal.SetActive(false);
-        block.SetActive(false);
+        block.SetActive(false); 
+        block2.SetActive(false);
+        pspanel =false;
         CharacterContoller2D.enableMovement = true;
         if (pSItems != null && block.activeSelf == true)
         {
@@ -152,7 +165,7 @@ public class PSolving : MonoBehaviour
         if (currentchoice != 0)
         {
             confirm2 = true;
-            Debug.Log("jawaban = " + currentchoice);
+            
             if (qtext.text == pSItems.soal_UtP_1)
             {
                 pSItems.PSItemState.Uts_1_jawaban = currentchoice;
@@ -221,6 +234,10 @@ public class PSolving : MonoBehaviour
             }
             else if (qtext.text == pSItems.soal_DaP)
             {
+                if (!reviewstate)
+                {
+                    comp_Sys.psItem = pSItems;
+                }
                 pSItems.PSItemState.DaP_jawaban = currentchoice;
                 pSItems.PSItemState.DaP_pos = position;
                 if (pSItems.DaP_jawaban == currentchoice && confirm2 == true)
@@ -233,6 +250,14 @@ public class PSolving : MonoBehaviour
                     PB_panel.SetActive(true);
                     TtP_Lok.SetActive(false);
                     soal.SetActive(true);
+                    Transform PC1 = Comp_ps.transform.GetChild(0);
+                    Tpc1 = tracker.CreateTracker(PC1);
+                    Transform PC2 = Comp_ps.transform.GetChild(2);
+                    Tpc2 = tracker.CreateTracker(PC2);
+                    Transform PC3 = Comp_ps.transform.GetChild(4);
+                    Tpc3 = tracker.CreateTracker(PC3);
+                    Transform PC4 = Comp_ps.transform.GetChild(6);
+                    Tpc4 = tracker.CreateTracker(PC4);
 
 
 
@@ -248,6 +273,14 @@ public class PSolving : MonoBehaviour
                     PB_panel.SetActive(true);
                     TtP_Lok.SetActive(false);
                     soal.SetActive(true);
+                    Transform PC1 = Comp_ps.transform.GetChild(0);
+                    Tpc1 = tracker.CreateTracker(PC1);
+                    Transform PC2 = Comp_ps.transform.GetChild(2);
+                    Tpc2 = tracker.CreateTracker(PC2);
+                    Transform PC3 = Comp_ps.transform.GetChild(4);
+                    Tpc3 = tracker.CreateTracker(PC3);
+                    Transform PC4 = Comp_ps.transform.GetChild(6);
+                    Tpc4 = tracker.CreateTracker(PC4);
 
                 }
                 notif_Sys.Show("Tahap Devise a Plan selesai. Akses Komputer telah dibuka. Selesaikan Permasalahan sesuai Petunjuk");
@@ -267,14 +300,7 @@ public class PSolving : MonoBehaviour
                 
 
             }
-            Transform PC1 = Comp_ps.transform.GetChild(0);
-            questTracker = tracker.CreateTracker(PC1);
-            Transform PC2 = Comp_ps.transform.GetChild(2);
-            questTracker = tracker.CreateTracker(PC2);
-            Transform PC3 = Comp_ps.transform.GetChild(4);
-            questTracker = tracker.CreateTracker(PC3);
-            Transform PC4 = Comp_ps.transform.GetChild(6);
-            questTracker = tracker.CreateTracker(PC4);
+            
             currentchoice = 0;
             
         }
@@ -326,10 +352,7 @@ public class PSolving : MonoBehaviour
     }
     public void OnUtPButton()
     { 
-       if(!reviewstate)
-        {
-            comp_Sys.psItem = pSItems;
-        }
+       
        if (!TtP_confirm.activeSelf)
         {
             TtP_confirm.SetActive(true);
@@ -354,6 +377,10 @@ public class PSolving : MonoBehaviour
                         }
 
                     }
+                    tracker.DestroyTracker(Tpc1);
+                    tracker.DestroyTracker(Tpc2);
+                    tracker.DestroyTracker(Tpc3);
+                    tracker.DestroyTracker(Tpc4);
                 });
 
             temp2.GetComponent<Button>().onClick.AddListener(() =>
@@ -392,7 +419,15 @@ public class PSolving : MonoBehaviour
             {
                 if (reviewstate)
                 {
-                    storyScript.misi = 2;
+                    if (pSItems.id == 0)
+                    {
+                        storyScript.misi = 2;
+                    }
+                    else if (pSItems.id == 2)
+                    {
+                        storyScript.misi = 3;
+                    }
+                    
                     Review_com.SetActive(true);
                     Review_confirm.SetActive(false);
                     int totalnilai = 10;
@@ -410,11 +445,15 @@ public class PSolving : MonoBehaviour
 
                     temp3.GetComponent<Button>().onClick.AddListener(() =>
                     {
+                        
                         nilai.SetActive(false);
-                        block2.SetActive(false);
+                        mulaibaru = true;
                         Review_com.SetActive(false);
                         Reset();
-                       
+                        tracker.DestroyTracker(Tpc1);
+                        tracker.DestroyTracker(Tpc2);
+                        tracker.DestroyTracker(Tpc3);
+                        tracker.DestroyTracker(Tpc4);
                         reviewstate = false;
                         temp.GetComponent<Button>().onClick.RemoveAllListeners();
                         Debug.Log("review state sekarang= " + reviewstate);
@@ -428,9 +467,9 @@ public class PSolving : MonoBehaviour
 
                     });
                     nilai.SetActive(true);
-                    block2.SetActive(true);
+                    //block2.SetActive(true);
                     block.SetActive(true);
-
+                    
 
                 }
                 else
@@ -467,7 +506,11 @@ public class PSolving : MonoBehaviour
         DaP_Lok.SetActive(true);
         TtP_Lok.SetActive(true);
         Review_Lok.SetActive(true);
-         
+        Debug.Log("PC1: = " + pSItems.PSItemState.pc1_state);
+        Debug.Log("PC2: = " + pSItems.PSItemState.pc2_state);
+        Debug.Log("PC3: = "  + pSItems.PSItemState.pc3_state);
+        Debug.Log("PC4: = " + pSItems.PSItemState.pc4_state);
+
     }
 
     void ShowAnswer()
@@ -482,19 +525,19 @@ public class PSolving : MonoBehaviour
             {
                 if (i == 3)
                 {
-                    pos.x += 960f;
+                    pos.x += 630f;
                     pos.y = tempy;
                 }
                 else
                 {
-                    pos.y -= 130f;
+                    pos.y -= 100f;
                 }
 
 
             }
             else
             {
-                pos.y -= 130f;
+                pos.y -= 100f;
             }
 
             //GameObject temp = Instantiate(customButton, optionPanel.transform);
@@ -537,7 +580,7 @@ public class PSolving : MonoBehaviour
         {
             buttonindex = 0;
         }
-        Debug.Log(buttonindex);
+       
         temp2 = Instantiate(qbutton_select, new Vector3(newpos.x, newpos.y, newpos.z), Quaternion.identity, qoption.transform);
         temp2.transform.GetChild(0).GetComponent<Text>().text = choice[buttonindex];
         currentchoice = buttonindex + 1;

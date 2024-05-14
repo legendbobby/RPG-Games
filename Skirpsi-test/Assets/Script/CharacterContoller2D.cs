@@ -15,12 +15,14 @@ public class CharacterContoller2D : MonoBehaviour
     DialogueManager dialogueManager;
     PSolving pSolving;
     public Vector2 lagijalan;
+    Comp_Sys comp_Sys;
     
 
     private void Start()
     {
         dialogueManager = GameManager.instance.dialogueManager;
         pSolving = GameManager.instance.psolving;
+        comp_Sys = GameManager.instance.comp_Sys;
     }
 
     // Start is called before the first frame update
@@ -34,12 +36,12 @@ public class CharacterContoller2D : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        Debug.Log("PB:" + pSolving.PB_panel.activeSelf);
-        if (dialogueManager.ngomong == true|| pSolving.PB_panel.activeSelf==true)
+      
+        if (dialogueManager.ngomong == true|| pSolving.pspanel == true || comp_Sys.pc_panel== true)
         {
             speed = 0f;
         }
-        else if (dialogueManager.ngomong == false || pSolving.PB_panel.activeSelf == false)
+        if (dialogueManager.ngomong == false || pSolving.pspanel == false || comp_Sys.pc_panel == false)
         {
             speed = 7f;
         }
@@ -66,7 +68,7 @@ public class CharacterContoller2D : MonoBehaviour
             animator.SetFloat("lastHorizontal", horizontal);
             animator.SetFloat("lastVertical", vertical);
         }
-        lagijalan = rigidbody2d.velocity = motionVector * speed;
+        lagijalan = rigidbody2d.velocity;
     }
     void FixedUpdate()
     {

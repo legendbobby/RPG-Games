@@ -1,7 +1,8 @@
 ===MISI_2
+~SM=2 
 Setelah menemukan dan membaca materi yang sudah dicari. Saya akan bertanya beberapa pertanyaan untuk mengetes pengetahuan kamu.
 ->MISI_2_A
-~SM=2   
+ 
 ===MISI_2_A
 Sudah Siap?
 +[Sudah]

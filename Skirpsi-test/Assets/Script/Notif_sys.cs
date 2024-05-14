@@ -34,7 +34,7 @@ public class Notif_sys : MonoBehaviour
         notif3 = notif;
         //StopAllCoroutines();
         queue.Enqueue(notif3);
-        Debug.Log(queue.Count);
+       
         //StartCoroutine(Show_notif());
     }
 
@@ -45,7 +45,7 @@ public class Notif_sys : MonoBehaviour
         {
             GameObject temp = Instantiate(notifimg, new Vector3(pos.x, pos.y, pos.z), Quaternion.identity, notifcanvas.transform);
             temp.transform.GetChild(0).GetComponent<Text>().text = queue.Dequeue();
-            Debug.Log("keluar");
+            
             temp.SetActive(true);
             if (notifcanvas.transform.childCount - 1 == 2)
             {

@@ -34,7 +34,7 @@ public class Item : ScriptableObject
         {
             ItemState.Coba = true;
         }
-        Debug.Log("Using" + name);
+        
        
         GameManager.instance.photo.ParsingFile(img, name);
         GameManager.instance.photo.PhotoActive();
