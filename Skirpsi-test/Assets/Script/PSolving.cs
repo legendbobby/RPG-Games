@@ -401,7 +401,7 @@ public class PSolving : MonoBehaviour
     {
         if (!Review_confirm.activeSelf)
         {
-            Debug.Log("review state= "+reviewstate);
+            
             Review_confirm.SetActive(true);
             GameObject temp = Review_confirm.transform.GetChild(3).gameObject;
             GameObject temp2 = Review_confirm.transform.GetChild(4).gameObject;
@@ -419,14 +419,7 @@ public class PSolving : MonoBehaviour
             {
                 if (reviewstate)
                 {
-                    if (pSItems.id == 0)
-                    {
-                        storyScript.misi = 2;
-                    }
-                    else if (pSItems.id == 2)
-                    {
-                        storyScript.misi = 3;
-                    }
+                    
                     
                     Review_com.SetActive(true);
                     Review_confirm.SetActive(false);
@@ -442,39 +435,72 @@ public class PSolving : MonoBehaviour
                     nilai.transform.GetChild(10).GetComponent<Text>().text = totalnilai.ToString();
                     GameObject temp3 = nilai.transform.GetChild(11).gameObject;
                     GameObject temp4 = nilai.transform.GetChild(12).gameObject;
-
-                    temp3.GetComponent<Button>().onClick.AddListener(() =>
+                    
+                    if(totalnilai>=75)
                     {
-                        
-                        nilai.SetActive(false);
-                        mulaibaru = true;
-                        Review_com.SetActive(false);
-                        Reset();
-                        tracker.DestroyTracker(Tpc1);
-                        tracker.DestroyTracker(Tpc2);
-                        tracker.DestroyTracker(Tpc3);
-                        tracker.DestroyTracker(Tpc4);
-                        reviewstate = false;
-                        temp.GetComponent<Button>().onClick.RemoveAllListeners();
-                        Debug.Log("review state sekarang= " + reviewstate);
-                        
-                        //lanjut story
+                        if (pSItems.id == 0)
+                        {
+                            storyScript.misi = 2;
+                        }
+                        else if (pSItems.id == 2)
+                        {
+                            storyScript.misi = 3;
+                        }
+                        GameObject temp5 = nilai.transform.GetChild(13).gameObject;
+                        temp5.SetActive(true);
+                        temp3.GetComponent<Button>().onClick.AddListener(() =>
+                        {
+                            
+                            
+                            nilai.SetActive(false);
+                            mulaibaru = true;
+                            Review_com.SetActive(false);
+                            Reset();
+                            tracker.DestroyTracker(Tpc1);
+                            tracker.DestroyTracker(Tpc2);
+                            tracker.DestroyTracker(Tpc3);
+                            tracker.DestroyTracker(Tpc4);
+                            reviewstate = false;
+                            temp5.SetActive(false);
+                            temp.GetComponent<Button>().onClick.RemoveAllListeners();
+                            Debug.Log("review state sekarang= " + reviewstate);
 
-                    });
-                    temp4.GetComponent<Button>().onClick.AddListener(() =>
+
+                            //lanjut story
+
+                        });
+
+                    }
+                    else
                     {
-                        ScreenCapture.CaptureScreenshot("D:/tes.png");
+                        GameObject temp6 = nilai.transform.GetChild(14).gameObject;
+                        temp6.SetActive(true);
+                        temp4.GetComponent<Button>().onClick.AddListener(() =>
+                        {
+                            
+                            Reset();
+                            temp.GetComponent<Button>().onClick.RemoveAllListeners();
+                            reviewstate = false;
+                            Review_confirm.SetActive(false);
+                            temp6.SetActive(false);
+                            nilai.SetActive(false);
+                            block.SetActive(false);
+                            Review_com.SetActive(false);
+                            //Review_confirm.SetActive(true);
 
-                    });
+                        });
+
+                    }
+
                     nilai.SetActive(true);
                     //block2.SetActive(true);
                     block.SetActive(true);
-                    
+
+
 
                 }
                 else
                 {
-                    
                     Reset();
                     Review_confirm.SetActive(false);
                     reviewstate = true;
@@ -506,10 +532,8 @@ public class PSolving : MonoBehaviour
         DaP_Lok.SetActive(true);
         TtP_Lok.SetActive(true);
         Review_Lok.SetActive(true);
-        Debug.Log("PC1: = " + pSItems.PSItemState.pc1_state);
-        Debug.Log("PC2: = " + pSItems.PSItemState.pc2_state);
-        Debug.Log("PC3: = "  + pSItems.PSItemState.pc3_state);
-        Debug.Log("PC4: = " + pSItems.PSItemState.pc4_state);
+        Debug.Log("review state= " + reviewstate);
+
 
     }
 
